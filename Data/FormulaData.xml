@@ -661,4 +661,12 @@
 		<Formula ID="3" Data="%d-%d" /> <!--  -->
 		<Formula ID="4" Data="(%d*0)+100" /> <!--  -->
 	</Group11>
+	<ArtifactOption>
+		<Formula ID="0" Data="(%d^1.05+(%d*((%d/7)^2))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="1" Data="(%d^1.05+(%d*((%d/7)^4.7))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="2" Data="(%d^1.05+(%d*((%d/7)^6.1))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="3" Data="(%d^1.05+(%d*((%d/7)^3.5))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="4" Data="(%d+%d)+((%d*0)+(%d*0))" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="5" Data="(%d^1.05+(%d*((%d/7)^2.5))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+	</ArtifactOption>
 </FormulaData>

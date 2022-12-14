@@ -165,6 +165,8 @@
 		<Map Number="135" File="135_OldKethotum.att" />
 		<Map Number="136" File="136_BlazeKethotum.att" />
 		<Map Number="137" File="137_Kanturu_Undergrounds.att" />
+		<Map Number="138" File="138_Volcano_Ignis.att" />
+		<Map Number="139" File="139_BossBattle.att" />
 	</DefaultMaps>
 	
 	<CrywolfEventAttr>

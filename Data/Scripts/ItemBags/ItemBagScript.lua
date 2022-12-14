@@ -246,7 +246,6 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,423),0, 'Item_(14,423,0)_Baseball_Lower_Case') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,424),0, 'Item_(14,424,0)_Baseball_Intermediate_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,425),0, 'Item_(14,425,0)_Baseball_Senior_Box') -- DropFunction /4/
-	
 	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,441),0, 'Item_(14,441,0)_Three_Vacancy_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,442),0, 'Item_(14,442,0)_Shiny_Earring_Box_(Left)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,443),0, 'Item_(14,443,0)_Shiny_Earring_Box_(Right)') -- DropFunction /4/
@@ -268,6 +267,8 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,486),0, 'Item_(14,486,0)_Ruud_Box_(1500)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,487),0, 'Item_(14,487,0)_Ruud_Box_(400)') -- DropFunction /4/
 	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,492),0, 'Item_(14,492,0)_Ghost_Horse_Capsule') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,78),0, 'Item_(20,78,0)_Harmony_Jewel_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,110),0, 'Item_(20,110,0)_Boss_Battle_Bonus_Box') -- DropFunction /4/
 
 -- ====================================================================
 -- MonsterBags -- BagType, 0, MonsterID, 'FileName'
@@ -442,6 +443,9 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 611,0, 'Event_Raffle_HitOrder_3')
 	AddItemBag(BAG_EVENT, 612,0, 'Event_Raffle_HitOrder_2')
 	AddItemBag(BAG_EVENT, 613,0, 'Event_Raffle_HitOrder_1')
+	
+-- Bags for purpose of Imperial Guardian Event
+	AddItemBag(BAG_EVENT, 700,0, 'Event_ImperialGuardian(1)_Reward')
 end
 
 -- ### /1/ Drop Item (using Item Bag Structure) ### --

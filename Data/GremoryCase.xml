@@ -27,6 +27,10 @@
 //		~ 16: Inventory Mix
 //		~ 17: Event Items
 //		~ 18: Labyrinth
+//		~ 19: 4th Quest
+//		~ 20: Mu Mobile
+//		~ 21: Boss Battle Main (mission 0)
+//		~ 22: Boss Battle Bonus (mission 1~2)
 //		~ 100: GM Gift
 //
 //	Time: Time the reward is available to pick up from gremory case, seconds
@@ -61,11 +65,15 @@
 			<Use Type="11" Time="3600" Name="Tormented Square (Battle) BattleCore" />
 			<Use Type="12" Time="3600" Name="EvoMon" />
 			<Use Type="13" Time="3600" Name="Devil Square" />
-			<Use Type="14" Time="3600" Name="Imperial Guardian" />
+			<Use Type="14" Time="604800" Name="Imperial Guardian" />
 			<!-- <Use Type="15" Time="3600" Name="Empty" /> -->
 			<Use Type="16" Time="86400" Name="Inventory Mix" />
 			<Use Type="17" Time="3600" Name="Event Items" />
 			<Use Type="18" Time="3600" Name="Labyrinth" />
+			<!-- <Use Type="19" Time="3600" Name="4th Quest" /> -->
+			<!-- <Use Type="20" Time="3600" Name="Mu Mobile" /> -->
+			<Use Type="21" Time="3600" Name="Boss Battle Main" />
+			<Use Type="22" Time="3600" Name="Boss Battle Bonus" />
 			<Use Type="100" Time="86400" Name="GM Gift" />
 		</General>
 		<PersonalShop>
