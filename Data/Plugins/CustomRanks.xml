@@ -3,22 +3,38 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2010-2021 IGC-Network (R)
+// == (C) 2022 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
-// Enabled = 1/0 
-// Ranks are applied based on Priority when the highest priority is met 
-// Priority is in following order
-// 0) IWCLord & SiegeLord
-// 1) VipType
-// 2) MaxReset > 0
-// 3) MaxLevel > 0
-// ImageName is for client refernece only, in server side it has no effect
+//~~ Changes to the file must be reflected on game client side and encrypted to .bmd using ToolKit Lite or Premium "IGC File Enc/Dec (XML)" tool, \Data\Local\CustomRank.bmd
 //
+// ### CustomRanks ###
+//	Enabled: Deactivates or activates the system, 0/1
+//	VipConditonMandatory: If rank has defined a VIP requirement condition then no other conditions will be checked unless VIP condition is met 
+//	MeetAllConditions: If set to 1 then all conditions must be met before VIP will be displayed
+//	MinLevel: Minimum level required for the rank
+//	MaxLevel: Maximum level for the rank
+//	MinReset: Minimum reset required for the rank
+//	MaxReset: Maximum reset for the rank
+//	VipType: Vip level the rank applies too, see VipSettings.xml
+//	IWCLord: Defines the Ice Wind Castle rank (requires Ice Wind Castle event plugin), 0/1
+//	SiegeLord: Defines the Castle Siege owner rank, 0/1
+//	ImageName: Name of graphics file for the rank, files must be placed in \Data\Custom\Interface of Game Client
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Ranks are applied based on Priority when the highest priority is met, priority order listed below:
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	~ 0: IWCLord & SiegeLord
+//	~ 1: VipType
+//	~ 2: MaxReset, if greater than 0
+//	~ 3: MaxLevel, if greater than 0
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
 -->
-<CustomRanks Enabled="1">
+
+<CustomRanks Enabled="1" VipConditonMandatory="1" MeetAllConditions="0" Password="WErt$4t3">
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="1"  IWCLord="0" ImageName="Rank1.tga" />
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="2"  IWCLord="0" ImageName="Rank2.tga" />
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="3"  IWCLord="0" ImageName="Rank3.tga" />

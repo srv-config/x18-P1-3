@@ -1070,7 +1070,7 @@
 			<Skill Index="57" ReqMinPoint="10" MaxPoint="10" ParentSkill1="886" ParentSkill2="0" MagicNumber="887" ValueType="0" Name="Illusion Blade Mastery" />
 			<Skill Index="58" ReqMinPoint="1" MaxPoint="20" ParentSkill1="883" ParentSkill2="0" MagicNumber="884" ValueType="0" Name="Illusion Avatar Mastery" />
 			<Skill Index="60" ReqMinPoint="1" MaxPoint="20" ParentSkill1="338" ParentSkill2="0" MagicNumber="341" ValueType="0" Name="Maximum AG Increase" />
-			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="881" ValueType="1" Name="Blade Storm Strenghtener" />
+			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="880" ParentSkill2="0" MagicNumber="881" ValueType="1" Name="Blade Storm Strenghtener" />
 			<Skill Index="64" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="743" ValueType="0" Name="Max HP Boost" />
 			<Skill Index="67" ReqMinPoint="10" MaxPoint="10" ParentSkill1="881" ParentSkill2="0" MagicNumber="882" ValueType="0" Name="Blade Storm Mastery" />
 		</Tree>

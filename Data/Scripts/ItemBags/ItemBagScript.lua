@@ -246,7 +246,6 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,423),0, 'Item_(14,423,0)_Baseball_Lower_Case') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,424),0, 'Item_(14,424,0)_Baseball_Intermediate_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,425),0, 'Item_(14,425,0)_Baseball_Senior_Box') -- DropFunction /4/
-	
 	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,441),0, 'Item_(14,441,0)_Three_Vacancy_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,442),0, 'Item_(14,442,0)_Shiny_Earring_Box_(Left)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,443),0, 'Item_(14,443,0)_Shiny_Earring_Box_(Right)') -- DropFunction /4/
@@ -268,6 +267,17 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,486),0, 'Item_(14,486,0)_Ruud_Box_(1500)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,487),0, 'Item_(14,487,0)_Ruud_Box_(400)') -- DropFunction /4/
 	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,492),0, 'Item_(14,492,0)_Ghost_Horse_Capsule') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,68),0, 'Item_(20,68,0)_Limited_Time_Wing_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,69),0, 'Item_(20,69,0)_Earring_Box_of_Fury_(Left)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,70),0, 'Item_(20,70,0)_Earring_Box_of_Fury_(Right)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,71),0, 'Item_(20,71,0)_Ghost_Horse_Capsule') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),0, 'Item_(20,72,0)_Blood_Angel_Armor_Box_(1)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,73),0, 'Item_(20,73,0)_Blood_Angel_Armor_Box_(2)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,74),0, 'Item_(20,74,0)_Blood_Angel_Armor_Box_(3)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,75),0, 'Item_(20,75,0)_Blood_Angel_Armor_Box_(4)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,76),0, 'Item_(20,76,0)_Blood_Angel_Weapon_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,78),0, 'Item_(20,78,0)_Harmony_Jewel_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,110),0, 'Item_(20,110,0)_Boss_Battle_Bonus_Box') -- DropFunction /4/
 
 -- ====================================================================
 -- MonsterBags -- BagType, 0, MonsterID, 'FileName'
@@ -442,6 +452,24 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 611,0, 'Event_Raffle_HitOrder_3')
 	AddItemBag(BAG_EVENT, 612,0, 'Event_Raffle_HitOrder_2')
 	AddItemBag(BAG_EVENT, 613,0, 'Event_Raffle_HitOrder_1')
+	
+-- Bags for purpose of Imperial Guardian Event
+	AddItemBag(BAG_EVENT, 700,0, 'Event_ImperialGuardian(1)_Reward')
+	
+-- Bags for purpose of Play Time event
+	AddItemBag(BAG_EVENT, 800,0, 'Event_PlayTime_Round_1')
+	AddItemBag(BAG_EVENT, 801,0, 'Event_PlayTime_Round_2')
+	AddItemBag(BAG_EVENT, 802,0, 'Event_PlayTime_Round_3')
+	AddItemBag(BAG_EVENT, 803,0, 'Event_PlayTime_Round_4')
+	AddItemBag(BAG_EVENT, 804,0, 'Event_PlayTime_Round_5')
+	AddItemBag(BAG_EVENT, 805,0, 'Event_PlayTime_Round_6')
+	AddItemBag(BAG_EVENT, 806,0, 'Event_PlayTime_Round_7')
+	AddItemBag(BAG_EVENT, 807,0, 'Event_PlayTime_Round_8')
+	AddItemBag(BAG_EVENT, 808,0, 'Event_PlayTime_Round_9')
+	AddItemBag(BAG_EVENT, 809,0, 'Event_PlayTime_Round_10')
+	
+-- Bags for purpose of Blessing Box event
+	AddItemBag(BAG_EVENT, 900,0, 'Event_BlessingBox_(899)_Kill')
 end
 
 -- ### /1/ Drop Item (using Item Bag Structure) ### --

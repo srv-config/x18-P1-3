@@ -944,6 +944,18 @@ function GrowLancerObsidian(Index, TargetIndex, TargetClass, Strength, Dexterity
 	return SkillEffect, SkillTime
 end
 
+-- SkillID: X, Bastion - (BuffEffectManager.xml -> Index: 238)
+function BastionBuffCalcSuccessAndMinSD(CharacterLevel)
+	local SuccessRate = 50
+	local MinShieldPercent = 20
+
+	if (SuccessRate > 100) then
+		SuccessRate = 100
+	end
+
+	return SuccessRate, MinShieldPercent
+end
+
 -- SkillID: X, Hemorrhage - (BuffEffectManager.xml -> Index: 239)
 function BleedingBuffCalcSuccessAndTime(CharacterLevel)
 	local SuccessRate = 10

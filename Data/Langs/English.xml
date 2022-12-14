@@ -843,6 +843,12 @@
 		<Msg ID="817" Text="You need an invitation to enter Illusion Temple." />
 		<Msg ID="818" Text="Illusion Knight" />
 		<Msg ID="819" Text="Your VIP level is not enough for this channel." />
+		<Msg ID="820" Text="Maximum percentage added by Talisman of Luck has been set to %d." />
+		<Msg ID="821" Text="Your need to be at least level %d to use that Artifact item." />
+		<Msg ID="822" Text="You need %d x %s +%d. to perform this command" />
+		<Msg ID="823" Text="Increase your VIP level to %s to learn Blessing of Experience skill." />
+		<Msg ID="824" Text="You need to be %d resets to learn Blessing of Experience skill." />
+		<Msg ID="825" Text="You need to be %d grand resets to learn Blessing of Experience skill." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
@@ -973,5 +979,7 @@
 		<Msg ID="135" Text="Old Kethotum" />
 		<Msg ID="136" Text="Blaze Kethotum" />
 		<Msg ID="137" Text="Kanturu Undergrounds" />
+		<Msg ID="138" Text="Volcano Ignis" />
+		<Msg ID="139" Text="Boss Zone (entrance)" />
 	</Map>
 </Language>

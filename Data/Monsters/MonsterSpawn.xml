@@ -571,7 +571,6 @@
 			<!-- <Spawn Index="371" Distance="0" StartX="82" StartY="16" Dir="1" /> --> <!-- Leo The Helper -->
 			<!-- <Spawn Index="375" Distance="0" StartX="219" StartY="230" Dir="3" /> --> <!-- Chaos Master -->
 			<!-- <Spawn Index="379" Distance="0" StartX="32" StartY="31" Dir="3" /> --> <!-- Natasha Firecracker Merchant ~ shop managed via ShopList.xml -->
-			<Spawn Index="522" Distance="0" StartX="229" StartY="221" Dir="1" /> <!-- Jerint the Assistant -->
 			<Spawn Index="584" Distance="0" StartX="240" StartY="53" Dir="7" /> <!-- Sir Lesnar -->
 		</Spot>
 		<Spot Type="1" Description="Multi-Spawn">
@@ -4601,7 +4600,6 @@
 			<Spawn Index="547" Distance="0" StartX="198" StartY="49" Dir="3" /> <!-- Market Union Member Julia -->
 			<Spawn Index="719" Distance="0" StartX="187" StartY="93" Dir="2" /> <!-- Archangel's Spirit -->
 			<Spawn Index="720" Distance="0" StartX="223" StartY="93" Dir="1" /> <!-- Charon -->
-			<Spawn Index="721" Distance="0" StartX="234" StartY="30" Dir="1" /> <!-- Jerint the Assistant -->
 			<Spawn Index="722" Distance="0" StartX="188" StartY="21" Dir="3" /> <!-- Mirage -->
 			<Spawn Index="723" Distance="0" StartX="168" StartY="57" Dir="3" /> <!-- Rugard -->
 			<Spawn Index="725" Distance="0" StartX="215" StartY="56" Dir="2" /> <!-- Priest James -->
@@ -6467,6 +6465,7 @@
 		<Spot Type="0" Description="NPC/Traps">
 			<Spawn Index="758" Distance="0" StartX="236" StartY="59" Dir="1" /> <!-- Portal of Dimension -->
 			<Spawn Index="765" Distance="0" StartX="240" StartY="239" Dir="1" /> <!-- Cent(Entrance) -->
+			<Spawn Index="522" Distance="0" StartX="171" StartY="239" Dir="1" /> <!-- Jerint the Assistant -->
 		</Spot>
 	</Map>
 	<Map Number="116" Name="Deep Dungeon 1">
@@ -11634,6 +11633,483 @@
 			<Spawn Index="910" Distance="10" StartX="210" StartY="8" Dir="-1" Element="5" />
 			<!--(910) (Elite) Underground Dreadfear [Lv.620]-->
 			<Spawn Index="910" Distance="10" StartX="210" StartY="11" Dir="-1" Element="5" />
+		</Spot>
+	</Map>
+	<Map Number="138" Name="Ignis Volcanos">
+		<Spot Type="4" Description="Single Point Elemental Monsters">
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="104" StartY="84" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="108" StartY="82" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="106" StartY="87" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="105" StartY="28" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="112" StartY="32" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="116" StartY="43" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="98" StartY="19" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="104" StartY="21" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="98" StartY="22" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="134" StartY="34" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="128" StartY="38" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="140" StartY="51" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="141" StartY="70" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="146" StartY="73" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="144" StartY="78" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="151" StartY="77" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="177" StartY="117" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="182" StartY="121" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="174" StartY="123" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="174" StartY="93" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="181" StartY="90" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="189" StartY="89" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="170" StartY="90" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="195" StartY="100" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="199" StartY="101" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="191" StartY="110" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="61" StartY="153" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="65" StartY="155" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="60" StartY="158" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="58" StartY="165" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="63" StartY="162" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="194" StartY="174" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="197" StartY="174" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="197" StartY="180" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="190" StartY="177" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="168" StartY="224" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="172" StartY="225" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="172" StartY="229" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="165" StartY="228" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="170" StartY="227" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="166" StartY="175" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="171" StartY="176" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="167" StartY="179" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="165" StartY="187" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="156" StartY="189" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="169" StartY="196" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="78" StartY="116" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="83" StartY="119" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="139" StartY="172" Dir="-1" Element="6" />
+			<!--(911) Magma Gladiator [Lv.640]-->
+			<Spawn Index="911" Distance="30" StartX="135" StartY="179" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="101" StartY="62" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="114" StartY="64" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="126" StartY="75" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="119" StartY="84" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="125" StartY="88" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="135" StartY="55" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="127" StartY="57" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="123" StartY="44" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="106" StartY="44" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="110" StartY="28" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="141" StartY="30" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="144" StartY="24" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="151" StartY="29" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="140" StartY="28" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="150" StartY="21" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="160" StartY="47" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="157" StartY="46" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="158" StartY="51" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="151" StartY="51" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="132" StartY="101" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="125" StartY="101" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="128" StartY="107" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="162" StartY="127" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="166" StartY="131" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="148" StartY="130" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="205" StartY="111" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="199" StartY="108" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="221" StartY="113" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="223" StartY="121" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="217" StartY="119" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="203" StartY="66" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="208" StartY="69" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="202" StartY="70" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="200" StartY="68" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="227" StartY="92" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="235" StartY="90" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="233" StartY="95" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="201" StartY="36" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="205" StartY="40" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="198" StartY="38" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="111" StartY="144" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="105" StartY="148" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="111" StartY="148" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="90" StartY="160" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="96" StartY="156" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="79" StartY="171" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="66" StartY="182" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="71" StartY="187" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="64" StartY="191" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="65" StartY="187" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="29" StartY="171" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="38" StartY="174" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="30" StartY="180" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="26" StartY="177" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="30" StartY="177" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="56" StartY="198" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="52" StartY="203" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="51" StartY="200" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="37" StartY="212" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="40" StartY="215" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="40" StartY="209" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="69" StartY="225" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="70" StartY="218" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="188" StartY="130" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="194" StartY="133" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="190" StartY="133" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="193" StartY="138" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="187" StartY="138" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="103" StartY="67" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="97" StartY="64" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="89" StartY="42" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="93" StartY="42" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="88" StartY="48" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="226" StartY="65" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="201" StartY="186" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="213" StartY="185" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="198" StartY="192" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="224" StartY="178" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="229" StartY="179" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="230" StartY="184" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="224" StartY="185" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="224" StartY="181" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="188" StartY="203" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="193" StartY="209" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="194" StartY="202" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="175" StartY="212" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="175" StartY="205" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="179" StartY="209" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="145" StartY="175" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="149" StartY="181" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="144" StartY="196" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="147" StartY="202" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="140" StartY="202" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="140" StartY="209" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="76" StartY="78" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="80" StartY="82" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="70" StartY="81" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="75" StartY="81" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="75" StartY="74" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="32" StartY="50" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="38" StartY="55" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="29" StartY="54" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="36" StartY="51" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="26" StartY="43" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="25" StartY="99" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="30" StartY="103" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="25" StartY="104" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="26" StartY="108" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="18" StartY="108" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="55" StartY="98" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="59" StartY="101" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="60" StartY="89" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="66" StartY="97" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="90" StartY="118" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="95" StartY="120" Dir="-1" Element="6" />
+			<!--(912) Magma Hook [Lv.645]-->
+			<Spawn Index="912" Distance="30" StartX="102" StartY="121" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="226" StartY="116" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="228" StartY="98" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="217" StartY="91" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="218" StartY="80" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="221" StartY="70" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="235" StartY="41" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="229" StartY="35" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="233" StartY="34" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="231" StartY="43" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="213" StartY="48" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="219" StartY="51" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="198" StartY="45" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="83" StartY="147" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="86" StartY="150" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="83" StartY="152" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="78" StartY="144" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="96" StartY="176" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="102" StartY="177" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="98" StartY="180" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="34" StartY="172" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="68" StartY="211" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="71" StartY="199" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="77" StartY="195" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="91" StartY="198" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="102" StartY="204" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="97" StartY="207" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="105" StartY="210" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="97" StartY="204" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="99" StartY="214" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="64" StartY="226" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="73" StartY="226" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="64" StartY="232" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="194" StartY="178" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="227" StartY="182" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="203" StartY="222" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="208" StartY="222" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="209" StartY="230" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="203" StartY="227" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="209" StartY="227" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="136" StartY="158" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="140" StartY="161" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="122" StartY="187" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="126" StartY="186" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="125" StartY="191" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="69" StartY="57" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="74" StartY="57" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="71" StartY="61" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="64" StartY="59" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="68" StartY="62" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="42" StartY="69" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="53" StartY="65" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="51" StartY="75" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="46" StartY="72" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="27" StartY="79" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="21" StartY="77" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="23" StartY="81" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="30" StartY="129" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="34" StartY="127" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="34" StartY="134" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="40" StartY="121" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="47" StartY="106" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="47" StartY="112" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="40" StartY="108" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="74" StartY="104" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="77" StartY="111" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="65" StartY="120" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="72" StartY="122" Dir="-1" Element="6" />
+			<!--(913) Magma Shaman [Lv.650]-->
+			<Spawn Index="913" Distance="30" StartX="62" StartY="124" Dir="-1" Element="6" />
+		</Spot>
+	</Map>
+	<Map Number="139" Name="Boss Battle">
+		<Spot Type="0" Description="NPC/Traps">
+			<Spawn Index="240" Distance="0" StartX="119" StartY="110" Dir="3" /> <!-- Safety Guardian -->
 		</Spot>
 	</Map>
 </MonsterSpawn>

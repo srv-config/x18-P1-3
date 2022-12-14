@@ -71,7 +71,6 @@
 	<Map Number="40" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Silent Map -->
 	<Map Number="41" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Barracks of Balgass -->
 	<Map Number="42" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Balgass Refuge -->
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<Map Number="45" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Illusion Temple (Classic/Renewal) 1 -->
 	<Map Number="46" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Illusion Temple (Classic/Renewal) 2 -->
 	<Map Number="47" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Illusion Temple (Classic/Renewal) 3 -->
@@ -81,11 +80,9 @@
 	<Map Number="51" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Elbeland -->
 	<Map Number="52" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Blood Castle 8 -->
 	<Map Number="53" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Chaos Castle 7 -->
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<Map Number="56" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Swamp of Calmness -->
 	<Map Number="57" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Raklion -->
 	<Map Number="58" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Hatchery (Raklion Boss) -->
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<Map Number="62" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Santa Village -->
 	<Map Number="63" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Vulcanus -->
 	<Map Number="64" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Duel Arena -->
@@ -109,7 +106,6 @@
 	<Map Number="88" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Dopple Ganger Renewal 7 -->
 	<Map Number="89" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Dopple Ganger Renewal 8 -->
 	<Map Number="90" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Dopple Ganger Renewal 9 -->
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<Map Number="91" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Acheron -->
 	<Map Number="92" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Acheron (Arca Battle) -->
 	<Map Number="95" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Debenter -->
@@ -150,4 +146,7 @@
 	<Map Number="134" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Ashy Aida -->
 	<Map Number="135" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Old Kethotum -->
 	<Map Number="136" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Blaze Kethotum -->
+	<Map Number="137" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Kanturu Undergrounds -->
+	<Map Number="138" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Volcano Ignis -->
+	<Map Number="139" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Boss Zone (entrance) -->
 </ZenDropSystem>

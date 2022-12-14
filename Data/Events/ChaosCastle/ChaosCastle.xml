@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -22,13 +22,29 @@
 //	TownSpawn: Time to move players to town after completing the event, minutes
 //
 // ### ChaosCastle::EventSchedule:Start ###
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
+//
 //	Hour: Start hour of the event, 0-23
-//	Minute: Start minute of the event, 0-60
+//	Minute: Start minute of the event, 0-59
+//	Second: Second to start the event, -1 if not applies
 //
 // ### ChaosCastle::EntryLevel::Castle ###
 //	Level: Level of the event the the configuration applies to
 //	MinLevel: Minimum level of player to allow entry to specified event level
-//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//	MaxLevel: Maximum level of player to allow entry to specified event level
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ If MAX is used as value for MaxLevel attribute then the attribute is being set to sum of MaxNormalLevel and MaxMasterLevel from Common.ini
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // ### ChaosCastle::RewardExpSettings::Castle ###
 //	Level: Level of the event, starts counting from 0
@@ -41,12 +57,12 @@
 	<Time StartIn="5" Duration="10" TownSpawn="1" />
 	
 	<EventSchedule>
-		<Start Hour="1"  Minute="0" />
-		<Start Hour="15" Minute="0" />
-		<Start Hour="17" Minute="0" />
-		<Start Hour="19" Minute="0" />
-		<Start Hour="21" Minute="0" />
-		<Start Hour="23" Minute="0" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1"  Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" />
 	</EventSchedule>
 	
 	<EntryLevel>

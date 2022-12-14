@@ -106,6 +106,8 @@
 	<Shop NPCIndex="583" MapNumber="91" PosX="55" PosY="195" Dir="2" VipType="-1" GmShop="0" FileName="NPC(583)_Jin.xml" />
 <!-- Arca Battle -->
 	<Shop NPCIndex="604" MapNumber="92" PosX="56" PosY="202" Dir="2" VipType="-1" GmShop="0" FileName="NPC(604)_Jin.xml" />
+<!-- Boss Battle -->	
+	<Shop NPCIndex="583" MapNumber="139" PosX="119" PosY="115" Dir="2" VipType="-1" GmShop="0" FileName="NPC(583)_Jin.xml" />
 <!-- Battle Core -->
 	<Shop NPCIndex="683" MapNumber="79"	PosX="58" PosY="51" Dir="2" VipType="-1" GMShop="0" BattleCore="1" FileName="NPC(683)_Marce_B.xml" />
 	<Shop NPCIndex="684" MapNumber="79"	PosX="64" PosY="57" Dir="2" VipType="-1" GMShop="0" BattleCore="1" FileName="NPC(684)_Silvia_B.xml" />

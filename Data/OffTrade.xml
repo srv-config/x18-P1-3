@@ -147,4 +147,6 @@
 	<Map Number="135" Disable="0" /> <!-- Old Kethotum -->
 	<Map Number="136" Disable="0" /> <!-- Blaze Kethotum -->
 	<Map Number="137" Disable="0" /> <!-- Kanturu Undergrounds -->
+	<Map Number="138" Disable="0" /> <!-- Volcano Ignis -->
+	<Map Number="139" Disable="0" /> <!-- Boss Zone (entrance) -->
 </OffTrade>

@@ -533,6 +533,25 @@
 		<Formula ID="77" Data="(((%d*1.5)^1.4)+5)" /> <!-- ItemLevel -->
 		<Formula ID="78" Data="(((%d*1.8)^1)+18)" /> <!-- ItemLevel -->
 		<Formula ID="79" Data="((((%d*1.4)^1.48)+52)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="80" Data="(((%d*5.5)+60)/2)" /> <!-- ItemLevel -->
+		<Formula ID="81" Data="(((%d*2.0)^1)+4)" /> <!-- ItemLevel -->
+		<Formula ID="82" Data="((((%d*3.0)^1.56)+150)/1)" /> <!-- ItemLevel -->
+		<Formula ID="83" Data="(((%d*2.8)^1.4)+27)" /> <!-- ItemLevel -->
+		<Formula ID="84" Data="((((%d*1.6)^1.48)+64)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="85" Data="((((%d*1.6)^1.48)+64)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="86" Data="(((%d*2.05)^1)+20)" /> <!-- ItemLevel -->
+		<Formula ID="87" Data="(((%d*18)+112)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="88" Data="(((%d*15.5)+118)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="89" Data="((((%d*1.6)^1.5)+65)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="90" Data="(((%d*2.2)^1)+24)" /> <!-- ItemLevel -->
+		<Formula ID="91" Data="(((%d*14.5)+124)/1.6)" /> <!-- ItemLevel -->
+		<Formula ID="92" Data="(((%d*16)+94)/1.63)" /> <!-- ItemLevel -->
+		<Formula ID="93" Data="(((%d*1.9)^1)+21)" /> <!-- ItemLevel -->
+		<Formula ID="94" Data="(((%d*7)+120)/2)" /> <!-- ItemLevel -->
+		<Formula ID="95" Data="(((%d*1.7)^1.4)+7)" /> <!-- ItemLevel -->
+		<Formula ID="96" Data="(((%d*2.0)^1)+20)" /> <!-- ItemLevel -->
+		<Formula ID="97" Data="((((%d*1.6)^1.48)+54)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="98" Data="(((%d*1.8)^1)+19)" /> <!-- ItemLevel -->
 	</SetOption>
 	<Wing4thDamage>
 		<Formula ID="0" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
@@ -548,6 +567,7 @@
 		<Formula ID="10" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
 		<Formula ID="11" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
 		<Formula ID="12" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
+		<Formula ID="13" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
 	</Wing4thDamage>
 	<Wing4thDefense>
 		<Formula ID="0" Data="(140+(%d^1.5*15))" /> <!-- WingsLevel -->
@@ -661,4 +681,12 @@
 		<Formula ID="3" Data="%d-%d" /> <!--  -->
 		<Formula ID="4" Data="(%d*0)+100" /> <!--  -->
 	</Group11>
+	<ArtifactOption>
+		<Formula ID="0" Data="(%d^1.05+(%d*((%d/7)^2))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="1" Data="(%d^1.05+(%d*((%d/7)^4.7))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="2" Data="(%d^1.05+(%d*((%d/7)^6.1))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="3" Data="(%d^1.05+(%d*((%d/7)^3.5))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="4" Data="(%d+%d)+((%d*0)+(%d*0))" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+		<Formula ID="5" Data="(%d^1.05+(%d*((%d/7)^2.5))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
+	</ArtifactOption>
 </FormulaData>

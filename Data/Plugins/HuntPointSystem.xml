@@ -65,6 +65,7 @@
 //	ExitHuntPercent: Penalty for fleeing the event
 //	ReceiveInactivePercent: Inactive point transfer percent
 //	BuffPercent: Buff transfer percent
+//	AllowSameGuildBattle: Disables or enables attack of same guild members, 0/1
 //	CancelBuffList: List of buffs to be removed from player upon joining battle
 //
 // ### HuntPointSystem::Battle::AreasSettings ###
@@ -132,6 +133,7 @@
 		ExitHuntPercent="5"
 		ReceiveInactivePercent="70"
 		BuffPercent="2"
+		AllowSameGuildBattle="0"
 		CancelBuffList="1,2,3,4,5,6,8,9,71,76,77,81,82,129,130,131,135,136,138,139,140,142,143,148,149,150,151,152,153,154,155,161,162,163,216,217,218,219,220,221,222,223,224,225,226,246,293,294,295,296,298,299" />	
 		<AreasSettings>
 			<Area Id="0" Map="6" X1="42" X2="52" Y1="52" Y2="61" />

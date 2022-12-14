@@ -18,6 +18,7 @@
 //	PartyWait:
 //	Duration: Event duration, minutes
 //	ChannelClose: Time of automated move from event map after event finish, minutes
+//	TowerBuffRewardExp: Experiance bonus added as a result of the tower's buff
 //
 // ### ArcaBattleEvent::DamageReduction
 //	OppositeTeam: Damage reduction on Opposite Team players during the event, expressed in percent, 0-100
@@ -96,7 +97,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
 
-<ArcaBattleEvent Enable="1" FriendlyFire="0" MinGuildMember="10" MasterRegTime="10" MemberRegTime="10" ProgressWait="3" PartyWait="5" Duration="30" ChannelClose="10">
+<ArcaBattleEvent Enable="1" FriendlyFire="0" MinGuildMember="10" MasterRegTime="10" MemberRegTime="10" ProgressWait="3" PartyWait="5" Duration="30" ChannelClose="10" TowerBuffRewardExp="20">
 	<DamageReduction OppositeTeam="100" SelfTeam="100" />
 	<ActiveDay Sun="0" Mon="0" Tue="0" Wed="1" Thu="0" Fri="0" Sat="0" />
 

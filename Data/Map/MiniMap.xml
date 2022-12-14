@@ -53,63 +53,59 @@
 	<!-- Event Square (Market) -->
 		<Tag Id="11" MapNumber="79" NPCIndex="719" X="186" Y="93" DisplayType="2" SyncType="1" Name="Archangel's Spirit (BC)" />
 		<Tag Id="12" MapNumber="79" NPCIndex="720" X="221" Y="95" DisplayType="2" SyncType="1" Name="Charon (Devil's Square)" />
-		<Tag Id="13" MapNumber="79" NPCIndex="721" X="234" Y="30" DisplayType="2" SyncType="1" Name="Jerint (Empire Guardians)" />
-		<Tag Id="14" MapNumber="79" NPCIndex="723" X="168" Y="57" DisplayType="2" SyncType="1" Name="Rugard (Doppelganger)" />
-		<Tag Id="15" MapNumber="79" NPCIndex="240" X="197" Y="66" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="16" MapNumber="79" NPCIndex="240" X="169" Y="51" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="17" MapNumber="79" NPCIndex="240" X="230" Y="97" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="18" MapNumber="79" NPCIndex="240" X="185" Y="89" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="19" MapNumber="79" NPCIndex="240" X="188" Y="16" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="20" MapNumber="79" NPCIndex="240" X="234" Y="23" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="21" MapNumber="79" NPCIndex="725" X="215" Y="56" DisplayType="4" SyncType="1" Name="Priest James" />
-		<Tag Id="22" MapNumber="79" NPCIndex="238" X="217" Y="62" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="23" MapNumber="79" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen" />
-		<Tag Id="24" MapNumber="79" NPCIndex="238" X="194" Y="95" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="25" MapNumber="79" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="26" MapNumber="79" NPCIndex="238" X="226" Y="96" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="27" MapNumber="79" NPCIndex="255" X="228" Y="93" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="28" MapNumber="79" NPCIndex="238" X="230" Y="30" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="29" MapNumber="79" NPCIndex="255" X="231" Y="23" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="30" MapNumber="79" NPCIndex="255" X="194" Y="13" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="31" MapNumber="79" NPCIndex="255" X="169" Y="53" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="13" MapNumber="79" NPCIndex="723" X="168" Y="57" DisplayType="2" SyncType="1" Name="Rugard (Doppelganger)" />
+		<Tag Id="14" MapNumber="79" NPCIndex="240" X="197" Y="66" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="15" MapNumber="79" NPCIndex="240" X="169" Y="51" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="16" MapNumber="79" NPCIndex="240" X="230" Y="97" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="17" MapNumber="79" NPCIndex="240" X="185" Y="89" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="18" MapNumber="79" NPCIndex="240" X="188" Y="16" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="19" MapNumber="79" NPCIndex="240" X="234" Y="23" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="20" MapNumber="79" NPCIndex="725" X="215" Y="56" DisplayType="4" SyncType="1" Name="Priest James" />
+		<Tag Id="21" MapNumber="79" NPCIndex="238" X="217" Y="62" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="22" MapNumber="79" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen" />
+		<Tag Id="23" MapNumber="79" NPCIndex="238" X="194" Y="95" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="24" MapNumber="79" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="25" MapNumber="79" NPCIndex="238" X="226" Y="96" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="26" MapNumber="79" NPCIndex="255" X="228" Y="93" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="27" MapNumber="79" NPCIndex="238" X="230" Y="30" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="28" MapNumber="79" NPCIndex="255" X="231" Y="23" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="29" MapNumber="79" NPCIndex="255" X="194" Y="13" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="30" MapNumber="79" NPCIndex="255" X="169" Y="53" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="31" MapNumber="79" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
 		<Tag Id="32" MapNumber="79" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="33" MapNumber="79" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="34" MapNumber="79" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="35" MapNumber="79" NPCIndex="255" X="226" Y="94" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="36" MapNumber="79" NPCIndex="722" X="188" Y="21" DisplayType="2" SyncType="1" Name="Mirage" />
-		<Tag Id="37" MapNumber="79" NPCIndex="547" X="198" Y="49" DisplayType="2" SyncType="1" Name="Julia" />
-		<Tag Id="38" MapNumber="79" NPCIndex="758" X="236" Y="59" DisplayType="2" SyncType="1" Name="Dimenson Gates" />
-		<Tag Id="39" MapNumber="79" NPCIndex="643" X="46" Y="52" DisplayType="2" SyncType="2" Name="Mait" />
+		<Tag Id="33" MapNumber="79" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="34" MapNumber="79" NPCIndex="255" X="226" Y="94" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="35" MapNumber="79" NPCIndex="722" X="188" Y="21" DisplayType="2" SyncType="1" Name="Mirage" />
+		<Tag Id="36" MapNumber="79" NPCIndex="547" X="198" Y="49" DisplayType="2" SyncType="1" Name="Julia" />
+		<Tag Id="37" MapNumber="79" NPCIndex="758" X="236" Y="59" DisplayType="2" SyncType="1" Name="Dimenson Gates" />
+		<Tag Id="38" MapNumber="79" NPCIndex="643" X="46" Y="52" DisplayType="2" SyncType="2" Name="Mait" />
 	<!-- Event Square (Instance) -->
-		<Tag Id="11" MapNumber="114" NPCIndex="719" X="186" Y="93" DisplayType="2" SyncType="1" Name="Archangel's Spirit (BC)" />
-		<Tag Id="12" MapNumber="114" NPCIndex="720" X="221" Y="95" DisplayType="2" SyncType="1" Name="Charon (Devil's Square)" />
-		<Tag Id="13" MapNumber="114" NPCIndex="721" X="234" Y="30" DisplayType="2" SyncType="1" Name="Jerint (Empire Guardians)" />
-		<Tag Id="14" MapNumber="114" NPCIndex="723" X="168" Y="57" DisplayType="2" SyncType="1" Name="Rugard (Doppelganger)" />
-		<Tag Id="15" MapNumber="114" NPCIndex="240" X="197" Y="66" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="16" MapNumber="114" NPCIndex="240" X="169" Y="51" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="17" MapNumber="114" NPCIndex="240" X="230" Y="97" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="18" MapNumber="114" NPCIndex="240" X="185" Y="89" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="19" MapNumber="114" NPCIndex="240" X="188" Y="16" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="20" MapNumber="114" NPCIndex="240" X="234" Y="23" DisplayType="5" SyncType="1" Name="Safety Guardian" />
-		<Tag Id="21" MapNumber="114" NPCIndex="725" X="215" Y="56" DisplayType="4" SyncType="1" Name="Priest James" />
-		<Tag Id="22" MapNumber="114" NPCIndex="238" X="217" Y="62" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="23" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen" />
-		<Tag Id="24" MapNumber="114" NPCIndex="238" X="194" Y="95" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="25" MapNumber="114" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="26" MapNumber="114" NPCIndex="238" X="226" Y="96" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="27" MapNumber="114" NPCIndex="255" X="228" Y="93" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="28" MapNumber="114" NPCIndex="238" X="230" Y="30" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
-		<Tag Id="29" MapNumber="114" NPCIndex="255" X="231" Y="23" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="30" MapNumber="114" NPCIndex="255" X="194" Y="13" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="31" MapNumber="114" NPCIndex="255" X="169" Y="53" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="32" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="33" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="34" MapNumber="114" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="35" MapNumber="114" NPCIndex="255" X="226" Y="94" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
-		<Tag Id="36" MapNumber="79" NPCIndex="722" X="188" Y="21" DisplayType="2" SyncType="1" Name="Mirage" />
-		<Tag Id="37" MapNumber="79" NPCIndex="547" X="198" Y="49" DisplayType="2" SyncType="1" Name="Julia" />
-		<Tag Id="38" MapNumber="79" NPCIndex="758" X="236" Y="59" DisplayType="2" SyncType="1" Name="Dimenson Gates" />
-		<Tag Id="39" MapNumber="79" NPCIndex="643" X="46" Y="52" DisplayType="2" SyncType="2" Name="Mait" />
+		<Tag Id="0" MapNumber="114" NPCIndex="719" X="186" Y="93" DisplayType="2" SyncType="1" Name="Archangel's Spirit (BC)" />
+		<Tag Id="1" MapNumber="114" NPCIndex="720" X="221" Y="95" DisplayType="2" SyncType="1" Name="Charon (Devil's Square)" />
+		<Tag Id="2" MapNumber="114" NPCIndex="522" X="171" Y="239" DisplayType="2" SyncType="1" Name="Jerint (Empire Guardians)" />
+		<Tag Id="3" MapNumber="114" NPCIndex="723" X="168" Y="57" DisplayType="2" SyncType="1" Name="Rugard (Doppelganger)" />
+		<Tag Id="4" MapNumber="114" NPCIndex="240" X="197" Y="66" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="5" MapNumber="114" NPCIndex="240" X="169" Y="51" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="6" MapNumber="114" NPCIndex="240" X="230" Y="97" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="7" MapNumber="114" NPCIndex="240" X="185" Y="89" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="8" MapNumber="114" NPCIndex="240" X="188" Y="16" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="9" MapNumber="114" NPCIndex="240" X="234" Y="23" DisplayType="5" SyncType="1" Name="Safety Guardian" />
+		<Tag Id="10" MapNumber="114" NPCIndex="725" X="215" Y="56" DisplayType="4" SyncType="1" Name="Priest James" />
+		<Tag Id="11" MapNumber="114" NPCIndex="238" X="217" Y="62" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="12" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen" />
+		<Tag Id="13" MapNumber="114" NPCIndex="238" X="194" Y="95" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="14" MapNumber="114" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="15" MapNumber="114" NPCIndex="238" X="226" Y="96" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="16" MapNumber="114" NPCIndex="255" X="228" Y="93" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="17" MapNumber="114" NPCIndex="238" X="230" Y="30" DisplayType="2" SyncType="1" Name="Chaos Goblin" />
+		<Tag Id="18" MapNumber="114" NPCIndex="255" X="231" Y="23" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="19" MapNumber="114" NPCIndex="255" X="194" Y="13" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="20" MapNumber="114" NPCIndex="255" X="169" Y="53" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="21" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="22" MapNumber="114" NPCIndex="255" X="208" Y="62" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="23" MapNumber="114" NPCIndex="255" X="190" Y="95" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="24" MapNumber="114" NPCIndex="255" X="226" Y="94" DisplayType="4" SyncType="1" Name="Lumen the Barmid" />
+		<Tag Id="25" MapNumber="114" NPCIndex="765" X="240" Y="239" DisplayType="2" SyncType="1" Name="Cent(Entrance)" />
 	<!-- Lorencia -->
 		<Tag Id="0" MapNumber="0" NPCIndex="226" X="122" Y="110" DisplayType="2" SyncType="1" Name="Trainer" />
 		<Tag Id="1" MapNumber="0" NPCIndex="230" X="114" Y="120" DisplayType="4" SyncType="1" Name="Wandering Merchant Alex" />
@@ -142,16 +138,15 @@
 		<Tag Id="6" MapNumber="2" NPCIndex="240" X="218" Y="63" DisplayType="5" SyncType="1" Name="Safety Guardian" />
 		<Tag Id="7" MapNumber="2" NPCIndex="257" X="219" Y="73" DisplayType="1" SyncType="1" Name="Shadow Phantom Soldier" />
 		<Tag Id="8" MapNumber="2" NPCIndex="257" X="172" Y="44" DisplayType="1" SyncType="1" Name="Shadow Phantom Soldier" />
-		<Tag Id="9" MapNumber="2" NPCIndex="522" X="229" Y="221" DisplayType="2" SyncType="1" Name="Jerint the Assistant" />
-		<Tag Id="10" MapNumber="2" NPCIndex="379" X="32" Y="31" DisplayType="4" SyncType="1" Name="Natasha Firecracker Merchant" />
-		<Tag Id="11" MapNumber="2" NPCIndex="566" X="204" Y="61" DisplayType="2" SyncType="1" Name="Mercenary Guild Manager" />
-		<Tag Id="12" MapNumber="2" NPCIndex="584" X="240" Y="53" DisplayType="2" SyncType="1" Name="Sir Lesnar" />
-		<Tag Id="13" MapNumber="2" NPCIndex="568" X="0" Y="0" DisplayType="2" SyncType="2" Name="Wandering Merchant Zyro" />
-		<Tag Id="14" MapNumber="2" NPCIndex="229" X="183" Y="30" DisplayType="2" SyncType="2" Name="Marlon" />
-		<Tag Id="15" MapNumber="2" NPCIndex="235" X="183" Y="32" DisplayType="2" SyncType="1" Name="Sebina the Priest" />
-		<Tag Id="16" MapNumber="2" NPCIndex="236" X="226" Y="66" DisplayType="2" SyncType="2" Name="Golden Archer" />
-		<Tag Id="17" MapNumber="2" NPCIndex="371" X="82" Y="16" DisplayType="2" SyncType="2" Name="Leo the Helper" />
-		<Tag Id="18" MapNumber="2" NPCIndex="375" X="219" Y="230" DisplayType="2" SyncType="2" Name="Chaos Master" />
+		<Tag Id="9" MapNumber="2" NPCIndex="379" X="32" Y="31" DisplayType="4" SyncType="1" Name="Natasha Firecracker Merchant" />
+		<Tag Id="10" MapNumber="2" NPCIndex="566" X="204" Y="61" DisplayType="2" SyncType="1" Name="Mercenary Guild Manager" />
+		<Tag Id="11" MapNumber="2" NPCIndex="584" X="240" Y="53" DisplayType="2" SyncType="1" Name="Sir Lesnar" />
+		<Tag Id="12" MapNumber="2" NPCIndex="568" X="0" Y="0" DisplayType="2" SyncType="2" Name="Wandering Merchant Zyro" />
+		<Tag Id="13" MapNumber="2" NPCIndex="229" X="183" Y="30" DisplayType="2" SyncType="2" Name="Marlon" />
+		<Tag Id="14" MapNumber="2" NPCIndex="235" X="183" Y="32" DisplayType="2" SyncType="1" Name="Sebina the Priest" />
+		<Tag Id="15" MapNumber="2" NPCIndex="236" X="226" Y="66" DisplayType="2" SyncType="2" Name="Golden Archer" />
+		<Tag Id="16" MapNumber="2" NPCIndex="371" X="82" Y="16" DisplayType="2" SyncType="2" Name="Leo the Helper" />
+		<Tag Id="17" MapNumber="2" NPCIndex="375" X="219" Y="230" DisplayType="2" SyncType="2" Name="Chaos Master" />
 	<!-- Noria -->
 		<Tag Id="0" MapNumber="3" NPCIndex="237" X="171" Y="105" DisplayType="2" SyncType="1" Name="Charon" />
 		<Tag Id="1" MapNumber="3" NPCIndex="242" X="173" Y="125" DisplayType="4" SyncType="1" Name="Elf Lala" />
@@ -340,24 +335,6 @@
 		<Tag Id="7" MapNumber="62" NPCIndex="473" X="232" Y="13" DisplayType="4" SyncType="2" Name="Donner" />
 		<Tag Id="8" MapNumber="62" NPCIndex="474" X="216" Y="19" DisplayType="4" SyncType="2" Name="Vixen" />
 		<Tag Id="9" MapNumber="62" NPCIndex="475" X="193" Y="27" DisplayType="4" SyncType="2" Name="Blitzen" />
-	<!-- Abyss of Atlans 3 -->
-		<Tag Id="0" MapNumber="130" NPCIndex="840" X="36" Y="95" DisplayType="1" SyncType="1" Name="Darkness Elite Zone" />
-		<Tag Id="1" MapNumber="130" NPCIndex="840" X="78" Y="218" DisplayType="1" SyncType="1" Name="Earth Elite Zone" />
-		<Tag Id="2" MapNumber="130" NPCIndex="840" X="184" Y="212" DisplayType="1" SyncType="1" Name="Fire Elite Zone" />
-		<Tag Id="3" MapNumber="130" NPCIndex="840" X="217" Y="100" DisplayType="1" SyncType="1" Name="Wind Elite Zone" />
-		<Tag Id="4" MapNumber="130" NPCIndex="840" X="132" Y="24" DisplayType="1" SyncType="1" Name="Water Elite Zone" />
-	<!-- Scorched Canyon -->
-		<Tag Id="0" MapNumber="131" NPCIndex="840" X="205" Y="141" DisplayType="1" SyncType="1" Name="Earth Elite Zone" />
-		<Tag Id="1" MapNumber="131" NPCIndex="840" X="205" Y="219" DisplayType="1" SyncType="1" Name="Fire Elite Zone" />
-		<Tag Id="2" MapNumber="131" NPCIndex="840" X="38" Y="198" DisplayType="1" SyncType="1" Name="Darkness Elite Zone" />
-		<Tag Id="3" MapNumber="131" NPCIndex="840" X="42" Y="117" DisplayType="1" SyncType="1" Name="Wind Elite Zone" />
-		<Tag Id="4" MapNumber="131" NPCIndex="840" X="62" Y="30" DisplayType="1" SyncType="1" Name="Water Elite Zone" />
-	<!-- Temple of Arenil Elite Zones -->
-		<Tag Id="0" MapNumber="133" NPCIndex="838" X="47" Y="202" DisplayType="1" SyncType="1" Name="Fire - Elite Zone"  />
-		<Tag Id="1" MapNumber="133" NPCIndex="838" X="152" Y="130" DisplayType="1" SyncType="1" Name="Water - Elite Zone" />
-		<Tag Id="2" MapNumber="133" NPCIndex="838" X="211" Y="26" DisplayType="1" SyncType="1" Name="Earth - Elite Zone" />
-		<Tag Id="3" MapNumber="133" NPCIndex="838" X="170" Y="216" DisplayType="1" SyncType="1" Name="Wind - Elite Zone"  />
-		<Tag Id="4" MapNumber="133" NPCIndex="838" X="60" Y="35" DisplayType="1" SyncType="1" Name="Darkness - Elite Zone" />
 	</TypeOne>	
 	<TypeTwo>
 	<!-- Lorencia -->
@@ -381,17 +358,17 @@
 	<!-- Dungeon (3) -->
 		<Tag Id="9" MapNumber="1" X="1" Y="85" Name="Dungeon Level 2 West Entrance" />
 		<Tag Id="10" MapNumber="1" X="29" Y="127" Name="Dungeon Level 2 East Entrance" />
-	<!-- Devias -->       
+	<!-- Devias -->
 		<Tag Id="0" MapNumber="2" X="244" Y="34" Name="Lorencia Entrance" />
 		<Tag Id="1" MapNumber="2" X="162" Y="248" Name="Elveland Entrance" />
 		<Tag Id="2" MapNumber="2" X="0" Y="250" Name="Lost Tower Entrance" />
 		<Tag Id="3" MapNumber="2" X="51" Y="92" Name="La Cleon Entrance" />
 		<Tag Id="4" MapNumber="2" X="158" Y="57" Name="Kubera Mine Entrance" />
-	<!-- Noria -->       
+	<!-- Noria -->
 		<Tag Id="0" MapNumber="3" X="151" Y="2" Name="Lorencia Entrance" />
 		<Tag Id="1" MapNumber="3" X="222" Y="29" Name="Aida Entrance" />
 		<Tag Id="2" MapNumber="3" X="242" Y="241" Name="Atlans Entrance" />
-	<!-- Lost Tower (1 ~ 7) -->     
+	<!-- Lost Tower (1 ~ 7) --> 
 		<Tag Id="0" MapNumber="4" X="164" Y="0" Name="Devias Entrance" />
 		<Tag Id="1" MapNumber="4" X="190" Y="5" Name="Lost Tower Level 2 Entrance" />
 		<Tag Id="2" MapNumber="4" X="165" Y="165" Name="Lost Tower Level 3 Entrance" />
@@ -443,6 +420,8 @@
 		<Tag Id="0" MapNumber="57" X="224" Y="214" Name="Devias Entrance" />
 		<Tag Id="1" MapNumber="57" X="169" Y="22" Name="Hatchery Entrance" />
 		<Tag Id="2" MapNumber="57" X="210" Y="226" Name="Nixie Lake Entrance" />
+	<!-- Vulcanus -->
+		<Tag Id="0" MapNumber="63" X="33" Y="15" Name="Volcano Ignis Entrance" />
 	<!-- Karutan 1 -->
 		<Tag Id="0" MapNumber="80" X="115" Y="45" Name="Aida Entrance" />
 		<Tag Id="1" MapNumber="80" X="187" Y="212" Name="Karutan North Entrance" />
@@ -539,8 +518,8 @@
 		<Tag Id="3" MapNumber="131" X="76" Y="75" Name="Blue Portal (B)" />
 	<!-- Red Smoke Entrance -->
 		<Tag Id="0" MapNumber="132" X="120" Y="117" Name="Fire - Entrance" />
-		<Tag Id="1" MapNumber="132" X="120" Y="132" Name="Water - Entrance"  />
-		<Tag Id="2" MapNumber="132" X="127" Y="110" Name="Earth - Entrance"  />
+		<Tag Id="1" MapNumber="132" X="120" Y="132" Name="Water - Entrance" />
+		<Tag Id="2" MapNumber="132" X="127" Y="110" Name="Earth - Entrance" />
 		<Tag Id="3" MapNumber="132" X="129" Y="135" Name="Wind - Entrance" />
 		<Tag Id="4" MapNumber="132" X="134" Y="127" Name="Darkness - Entrance" />
 	<!-- Temple of Arenil Entrance -->
@@ -548,22 +527,47 @@
 		<Tag Id="1" MapNumber="133" X="125" Y="195" Name="Arenil - Portal [B]" />
 		<Tag Id="2" MapNumber="133" X="130" Y="055" Name="Arenil - Safe Zone" />
 	<!-- Temple of Arenil Zones -->
-		<Tag Id="3" MapNumber="133" X="098" Y="193" Name="Arenil - Fire Zone"  />
-		<Tag Id="4" MapNumber="133" X="125" Y="143" Name="Arenil - Water Zone" />
-		<Tag Id="5" MapNumber="133" X="140" Y="033" Name="Arenil - Earth Zone" />
-		<Tag Id="6" MapNumber="133" X="155" Y="193" Name="Arenil - Wind Zone"  />
-		<Tag Id="7" MapNumber="133" X="115" Y="033" Name="Arenil - Darkness Zone" />	
+		<Tag Id="3" MapNumber="133" X="098" Y="193" Name="Arenil - Fire Zone" />
+		<Tag Id="4" MapNumber="133" X="125" Y="143" Name="Arenil - Water Zone"/>
+		<Tag Id="5" MapNumber="133" X="140" Y="033" Name="Arenil - Earth Zone"/>
+		<Tag Id="6" MapNumber="133" X="155" Y="193" Name="Arenil - Wind Zone" />
+		<Tag Id="7" MapNumber="133" X="115" Y="033" Name="Arenil - Darkness Zone" />
+	<!-- Abyss of Atlans 3 -->
+		<Tag Id="0" MapNumber="130" X="36" Y="95" Name="Darkness Elite Zone" />
+		<Tag Id="1" MapNumber="130" X="78" Y="218" Name="Earth Elite Zone" />
+		<Tag Id="2" MapNumber="130" X="184" Y="212" Name="Fire Elite Zone" />
+		<Tag Id="3" MapNumber="130" X="217" Y="100" Name="Wind Elite Zone" />
+		<Tag Id="4" MapNumber="130" X="132" Y="24" Name="Water Elite Zone" />
+	<!-- Scorched Canyon -->
+		<Tag Id="0" MapNumber="131" X="205" Y="141" Name="Earth Elite Zone" />
+		<Tag Id="1" MapNumber="131" X="205" Y="219" Name="Fire Elite Zone" />
+		<Tag Id="2" MapNumber="131" X="38" Y="198" Name="Darkness Elite Zone" />
+		<Tag Id="3" MapNumber="131" X="42" Y="117" Name="Wind Elite Zone" />
+		<Tag Id="4" MapNumber="131" X="62" Y="30" Name="Water Elite Zone" />
+	<!-- Temple of Arenil Elite Zones -->
+		<Tag Id="0" MapNumber="133" X="47" Y="202" Name="Fire - Elite Zone" />
+		<Tag Id="1" MapNumber="133" X="152" Y="130" Name="Water - Elite Zone" />
+		<Tag Id="2" MapNumber="133" X="211" Y="26" Name="Earth - Elite Zone" />
+		<Tag Id="3" MapNumber="133" X="170" Y="216" Name="Wind - Elite Zone" />
+		<Tag Id="4" MapNumber="133" X="60" Y="35" Name="Darkness - Elite Zone" />
 	<!-- Ashy Aida -->
-		<Tag Id="0" MapNumber="134" X="20" Y="59" Name="Fire Elite Zone" />
-		<Tag Id="1" MapNumber="134" X="47" Y="108" Name="Water Elite Zone" />
-		<Tag Id="2" MapNumber="134" X="168" Y="169" Name="Earth Elite Zone" />
-		<Tag Id="3" MapNumber="134" X="97" Y="161" Name="Wind Elite Zone" />
-		<Tag Id="4" MapNumber="134" X="226" Y="130" Name="Darkness Elite Zone" />
+		<Tag Id="0" MapNumber="134" X="20" Y="59" Name="Fire - Elite Zone" />
+		<Tag Id="1" MapNumber="134" X="47" Y="108" Name="Water - Elite Zone" />
+		<Tag Id="2" MapNumber="134" X="168" Y="169" Name="Earth - Elite Zone" />
+		<Tag Id="3" MapNumber="134" X="97" Y="161" Name="Wind - Elite Zone" />
+		<Tag Id="4" MapNumber="134" X="226" Y="130" Name="Darkness - Elite Zone" />
 	<!-- Kanturu Undergrounds -->
-		<Tag Id="0" MapNumber="137" X="40" Y="38" Name="Fire Elite Zone" />
-		<Tag Id="1" MapNumber="137" X="18" Y="215" Name="Water Elite Zone" />
-		<Tag Id="2" MapNumber="137" X="124" Y="10" Name="Earth Elite Zone" />
-		<Tag Id="3" MapNumber="137" X="225" Y="212" Name="Wind Elite Zone" />
-		<Tag Id="4" MapNumber="137" X="235" Y="11" Name="Darkness Elite Zone" />
+		<Tag Id="0" MapNumber="137" X="40" Y="38" Name="Fire - Elite Zone" />
+		<Tag Id="1" MapNumber="137" X="18" Y="215" Name="Water - Elite Zone" />
+		<Tag Id="2" MapNumber="137" X="124" Y="10" Name="Earth - Elite Zone" />
+		<Tag Id="3" MapNumber="137" X="225" Y="212" Name="Wind - Elite Zone" />
+		<Tag Id="4" MapNumber="137" X="235" Y="11" Name="Darkness - Elite Zone" />
+	<!-- Volcano Ignis Elite Zones -->
+		<Tag Id="0" MapNumber="138" X="171" Y="40" Name="Fire - Elite Zone" />
+		<Tag Id="1" MapNumber="138" X="30" Y="135" Name="Water - Elite Zone"/>
+		<Tag Id="2" MapNumber="138" X="105" Y="37" Name="Earth - Elite Zone"/>
+		<Tag Id="3" MapNumber="138" X="47" Y="223" Name="Wind - Elite Zone" />
+		<Tag Id="4" MapNumber="138" X="214" Y="196" Name="Darkness - Elite Zone" />
+		<Tag Id="5" MapNumber="138" X="119" Y="116" Name="Vulcanus Entrance" />
 	</TypeTwo>
 </MiniMapObjects>

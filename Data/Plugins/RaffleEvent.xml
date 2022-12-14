@@ -98,9 +98,9 @@
 	<ActiveDay Sun="1" Mon="1" Tue="1" Wed="1" Thu="1" Fri="1" Sat="1" />
 	
 	<Schedule OpenTime="15" EndTime="1">
-		<Start Hour="12" Minute="0" Type="1" />
-		<Start Hour="15" Minute="0" Type="2" />
-		<Start Hour="17" Minute="0" Type="3" />
+		<Start Hour="12" Minute="0" Type="0" />
+		<Start Hour="15" Minute="0" Type="1" />
+		<Start Hour="17" Minute="0" Type="2" />
 	</Schedule>
 	
 	<Raffle MaxCoupons="-1" UserMaxCouponBuy="-1" WinnerCount="3" RewardItemBag="600" PriceType="0" PriceMoney="100" /> <!-- Type 0 -->
