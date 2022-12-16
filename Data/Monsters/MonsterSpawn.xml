@@ -12107,4 +12107,9 @@
 			<Spawn Index="913" Distance="30" StartX="62" StartY="124" Dir="-1" Element="6" />
 		</Spot>
 	</Map>
+	<Map Number="139" Name="Boss Battle">
+		<Spot Type="0" Description="NPC/Traps">
+			<Spawn Index="240" Distance="0" StartX="119" StartY="110" Dir="3" /> <!-- Safety Guardian -->
+		</Spot>
+	</Map>
 </MonsterSpawn>

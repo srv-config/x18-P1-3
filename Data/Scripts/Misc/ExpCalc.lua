@@ -47,10 +47,11 @@ function SetExpTable_Master(MasterLevel, MaxNormalLevel)
 	return Exp
 end
 
-function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp)
+function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp, MiscExp)
 	local Exp = 0
 
 -- The OffLevelExp is 1.0 when not having plugin purchased
+-- The MiscExp is percentage bonus exp added by Static Option System plugin, default is 0.0
 	if (FormulaID == 0) then
 		Exp = StaticExp+(EventExp+VipExp+BonusEvent+MapBonusExp);
 	elseif (FormulaID == 1) then
@@ -65,5 +66,9 @@ function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, Bonus
 		Exp = (StaticExp+DynamicExp+EventExp+BonusEvent+MapBonusExp)*VipExp;
 	end
 
+	if (MiscExp > 0) then
+		Exp = Exp + (Exp * MiscExp / 100)
+	end
+	
 	return Exp;
 end
