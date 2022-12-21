@@ -267,6 +267,15 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,486),0, 'Item_(14,486,0)_Ruud_Box_(1500)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,487),0, 'Item_(14,487,0)_Ruud_Box_(400)') -- DropFunction /4/
 	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,492),0, 'Item_(14,492,0)_Ghost_Horse_Capsule') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,68),0, 'Item_(20,68,0)_Limited_Time_Wing_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,69),0, 'Item_(20,69,0)_Earring_Box_of_Fury_(Left)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,70),0, 'Item_(20,70,0)_Earring_Box_of_Fury_(Right)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,71),0, 'Item_(20,71,0)_Ghost_Horse_Capsule') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),0, 'Item_(20,72,0)_Blood_Angel_Armor_Box_(1)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,73),0, 'Item_(20,73,0)_Blood_Angel_Armor_Box_(2)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,74),0, 'Item_(20,74,0)_Blood_Angel_Armor_Box_(3)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,75),0, 'Item_(20,75,0)_Blood_Angel_Armor_Box_(4)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,76),0, 'Item_(20,76,0)_Blood_Angel_Weapon_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,78),0, 'Item_(20,78,0)_Harmony_Jewel_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,110),0, 'Item_(20,110,0)_Boss_Battle_Bonus_Box') -- DropFunction /4/
 
