@@ -455,6 +455,18 @@ function LoadItemBag() -- Bags Load
 	
 -- Bags for purpose of Imperial Guardian Event
 	AddItemBag(BAG_EVENT, 700,0, 'Event_ImperialGuardian(1)_Reward')
+	
+-- Bags for purpose of Play Time event
+	AddItemBag(BAG_EVENT, 800,0, 'Event_PlayTime_Round_1')
+	AddItemBag(BAG_EVENT, 801,0, 'Event_PlayTime_Round_2')
+	AddItemBag(BAG_EVENT, 802,0, 'Event_PlayTime_Round_3')
+	AddItemBag(BAG_EVENT, 803,0, 'Event_PlayTime_Round_4')
+	AddItemBag(BAG_EVENT, 804,0, 'Event_PlayTime_Round_5')
+	AddItemBag(BAG_EVENT, 805,0, 'Event_PlayTime_Round_6')
+	AddItemBag(BAG_EVENT, 806,0, 'Event_PlayTime_Round_7')
+	AddItemBag(BAG_EVENT, 807,0, 'Event_PlayTime_Round_8')
+	AddItemBag(BAG_EVENT, 808,0, 'Event_PlayTime_Round_9')
+	AddItemBag(BAG_EVENT, 809,0, 'Event_PlayTime_Round_10')
 end
 
 -- ### /1/ Drop Item (using Item Bag Structure) ### --

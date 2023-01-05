@@ -90,27 +90,27 @@
 
 <AnniversaryEvent Enable="0">
 	<Schedule>
-		<Quest Index="0" StartDate="2022-01-07 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Access for characters Level 400 or higher (%d/1) -->		
-		<Quest Index="1" StartDate="2022-01-07 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- New Year's Monster Kill (%d/100) -->
-		<Quest Index="2" StartDate="2022-02-04 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Rabbit Monster Kill (%d/100) -->		
-		<Quest Index="3" StartDate="2022-03-25 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Golden Goblin Monster Kill (%d/50) -->	
-		<Quest Index="4" StartDate="2022-04-08 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Red Cherry Blossom Branch (50) Number of Exchanges (%d/5) -->	
-		<Quest Index="5" StartDate="2022-04-20 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Earring enhancement (%d/3) -->	
-		<Quest Index="6" StartDate="2022-05-11 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Grant Jewel of Harmony options (%d/10) -->	
-		<Quest Index="7" StartDate="2022-05-13 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Maze Of Dimensions clear (%d/1) -->	
-		<Quest Index="8" StartDate="2022-06-17 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Coin exchange (%d/5) -->	
-		<Quest Index="9" StartDate="2022-07-08 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Use Chicken Box (%d/1) -->	
-		<Quest Index="10" StartDate="2022-07-22 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Use Card Deck (%d/3) -->	
-		<Quest Index="11" StartDate="2022-08-12 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Accumulate 20 hours of play time with characters above level 400 (%d hours/20 accumulated hours) -->	
-		<Quest Index="12" StartDate="2022-09-09 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Rabbit Monster Kill (%d/100) -->	
-		<Quest Index="13" StartDate="2022-10-26 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Number of fruit items crafted (%d/3) -->	
-		<Quest Index="14" StartDate="2022-10-26 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Successful Chaos Combination 'Equipment Enhancement' using mastery items of level +9 or higher (%d/1 -->	
-		<Quest Index="15" StartDate="2022-10-26 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Access to Kundun and Lemuria of Lv. 400 or higher (%d/1) -->	
-		<Quest Index="16" StartDate="2022-10-26 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Access to Kundun and Lemuria of Lv. 770 or higher (%d/1) -->	
-		<Quest Index="17" StartDate="2022-10-28 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Number of Pumpkins of Luck used (%d/10) -->	
-		<Quest Index="18" StartDate="2022-11-04 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Number of Maple Leaf Exchanges (%d/5) -->	
-		<Quest Index="19" StartDate="2022-12-16 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- 1 entry to Santa's Village (%d/1)"	"December 16th to December 30th before regular maintenance -->	
-		<Quest Index="20" StartDate="2022-12-16 08:00" EndDate="2022-12-31 08:00" CharacterLevel="400" /> <!-- Successful 'Equipment Enhancement' or 'Errtel Level Up' using with Pentagram of level +9 or higher (%d/1) -->	
+		<Quest Index="0" StartDate="2023-01-07 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Access for characters Level 400 or higher (%d/1) -->		
+		<Quest Index="1" StartDate="2023-01-07 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- New Year's Monster Kill (%d/100) -->
+		<Quest Index="2" StartDate="2023-02-04 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Rabbit Monster Kill (%d/100) -->		
+		<Quest Index="3" StartDate="2023-03-25 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Golden Goblin Monster Kill (%d/50) -->	
+		<Quest Index="4" StartDate="2023-04-08 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Red Cherry Blossom Branch (50) Number of Exchanges (%d/5) -->	
+		<Quest Index="5" StartDate="2023-04-20 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Earring enhancement (%d/3) -->	
+		<Quest Index="6" StartDate="2023-05-11 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Grant Jewel of Harmony options (%d/10) -->	
+		<Quest Index="7" StartDate="2023-05-13 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Maze Of Dimensions clear (%d/1) -->	
+		<Quest Index="8" StartDate="2023-06-17 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Coin exchange (%d/5) -->	
+		<Quest Index="9" StartDate="2023-07-08 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Use Chicken Box (%d/1) -->	
+		<Quest Index="10" StartDate="2023-07-22 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Use Card Deck (%d/3) -->	
+		<Quest Index="11" StartDate="2023-08-12 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Accumulate 20 hours of play time with characters above level 400 (%d hours/20 accumulated hours) -->	
+		<Quest Index="12" StartDate="2023-09-09 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Lucky Rabbit Monster Kill (%d/100) -->	
+		<Quest Index="13" StartDate="2023-10-26 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Number of fruit items crafted (%d/3) -->	
+		<Quest Index="14" StartDate="2023-10-26 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Successful Chaos Combination 'Equipment Enhancement' using mastery items of level +9 or higher (%d/1 -->	
+		<Quest Index="15" StartDate="2023-10-26 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Access to Kundun and Lemuria of Lv. 400 or higher (%d/1) -->	
+		<Quest Index="16" StartDate="2023-10-26 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Access to Kundun and Lemuria of Lv. 770 or higher (%d/1) -->	
+		<Quest Index="17" StartDate="2023-10-28 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Number of Pumpkins of Luck used (%d/10) -->	
+		<Quest Index="18" StartDate="2023-11-04 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Number of Maple Leaf Exchanges (%d/5) -->	
+		<Quest Index="19" StartDate="2023-12-16 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- 1 entry to Santa's Village (%d/1)"	"December 16th to December 30th before regular maintenance -->	
+		<Quest Index="20" StartDate="2023-12-16 08:00" EndDate="2023-12-31 08:00" CharacterLevel="400" /> <!-- Successful 'Equipment Enhancement' or 'Errtel Level Up' using with Pentagram of level +9 or higher (%d/1) -->	
 	</Schedule>
 	<QuestList>
 		<Quest Index="0" ObjectiveType="0" ObjectiveCount="1" ObjectiveReqType1="-1" ObjectiveReqSubType1="-1" ObjectiveReqType2="-1" ObjectiveReqSubType2="-1"	ObjectiveReqType3="-1" ObjectiveReqSubType3="-1" ObjectiveReqType4="-1"	ObjectiveReqSubType4="-1" />
@@ -163,7 +163,7 @@
 		<Buff Level="24" BuffNumber="393" AddExperience="20" />
 		<Buff Level="25" BuffNumber="394" AddExperience="20" />
 	</BuffReward>
-	<ItemReward ReceiveStartDate="2022-10-26 08:00" ReceiveEndDate="2023-01-06 08:00">
+	<ItemReward ReceiveStartDate="2023-10-26 08:00" ReceiveEndDate="2024-01-06 08:00">
 		<Reward Level="3" ItemCat="20" ItemIndex="68" Name="Limited-time Wing Box" />
 		<Reward Level="5" ItemCat="20" ItemIndex="69" Name="Earring Box of Fury (Left)" />	
 		<Reward Level="7" ItemCat="20" ItemIndex="70" Name="Earring Box of Anger (Right)" />	

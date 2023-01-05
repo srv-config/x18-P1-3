@@ -845,6 +845,7 @@
 		<Msg ID="819" Text="Your VIP level is not enough for this channel." />
 		<Msg ID="820" Text="Maximum percentage added by Talisman of Luck has been set to %d." />
 		<Msg ID="821" Text="Your need to be at least level %d to use that Artifact item." />
+		<Msg ID="822" Text="You need %d x %s +%d. to perform this command" />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
