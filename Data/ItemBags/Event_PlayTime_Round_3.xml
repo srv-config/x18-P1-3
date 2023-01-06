@@ -28,11 +28,12 @@
 <DropSection UseMode="-1" DisplayName="Section 2">
 	<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
 		<Drop Rate="10000" Type="0" Count="1">
-			<Item Cat="14" Index="78" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
-			<Item Cat="14" Index="79" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
-			<Item Cat="14" Index="80" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
-			<Item Cat="14" Index="81" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
-			<Item Cat="14" Index="82" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="432" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="433" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="434" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="435" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="436" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
+			<Item Cat="14" Index="437" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" />
 		</Drop>
 	</DropAllow>
 </DropSection>
