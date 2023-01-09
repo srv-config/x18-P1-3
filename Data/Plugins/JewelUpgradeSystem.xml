@@ -14,10 +14,10 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
-<JewelUpgradeSystem Enabled="1" Extended = "1">
+<JewelUpgradeSystem Enabled="0" Extended="1">
 	<IgnoreItemList>
 		<Item Cat="0" Index="41" />
-		<Item Cat="4" Index ="7" />
+		<Item Cat="4" Index="7" />
 		<Item Cat="4" Index="15" />
 	</IgnoreItemList>
 	
