@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == Modify if you know what you do only!
 // == File is a part of IGCN Group MuOnline Server files.
@@ -17,6 +17,7 @@
 //		~ 3: Imperial Fort
 //		~ 5: Illusion Temple
 //		~ 6: Doppelganger
+//		~ 7: Boss Battle Together
 //
 //	Count: Maximum daily entries count
 //
@@ -32,7 +33,7 @@
 //	BC: Number of mastery boxes to reward to Blood Castle event at specified level
 //	DS: Number of mastery boxes to reward to Devil Square event at specified level
 //	DG: Number of mastery boxes to reward to Doppelganger event at specified level
-//	IT: Number of mastery boxes to reward to Illussion Temple event at specified level
+//	IT: Number of mastery boxes to reward to Illusion Temple event at specified level
 
 // ### EventMapPoint::PointsReward::Event ###
 //	Type: Event type
@@ -59,6 +60,7 @@
 		<Event Type="3" Count="4" Name="Imperial Fort" />
 		<Event Type="5" Count="1" Name="Illusion Temple" />
 		<Event Type="6" Count="4" Name="Doppelganger" />
+		<Event Type="7" Count="1" Name="Boss Battle Together" />
 	</EntryDailyLimit>
 	
 	<RewardCondition>
