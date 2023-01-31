@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -80,8 +80,11 @@
 //		Type 3: Always 0
 //		Type 4: Days
 //
+// Description: Used for cash shop inventory search option. Should always be filled. Inserted into T_inGameShop_Items.Description column. Encoding of the file must be set properly for your database collation, e.g. Chinese_PRC_CI_AS will require the file encoding to be set to ANSI. Avoid using following characters as they will be removed automatically -> .;:~%'
+//
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
+
 <CashItemInfo>
 	<Item GUID="1" ID="1" Cat="2" Index="176" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="0" Duration="0" Description="testddd" />
 	<Item GUID="2" ID="2" Cat="2" Index="176" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="0" Duration="0" Description="testddd" />
