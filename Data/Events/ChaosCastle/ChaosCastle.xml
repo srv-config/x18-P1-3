@@ -21,7 +21,7 @@
 //	Duration: Duration of the event, minutes
 //	TownSpawn: Time to move players to town after completing the event, minutes
 //
-// ### ChaosCastle::EventSchedule:Start ###
+// ### ChaosCastle::Schedule:Start ###
 //	Year: Year to start the event, -1 if not applies
 //	Month: Month number to start the event 1-12, -1 if not applies
 //	Day: Day of a month to start the event, 1-31, -1 if not applies
@@ -56,17 +56,17 @@
 <ChaosCastle Enable="1" MinPlayer="1">
 	<Time StartIn="5" Duration="10" TownSpawn="1" />
 	
-	<EventSchedule>
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1"  Minute="0" Second="-1" />
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="0" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="0" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="0" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="0" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="0" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" />
-	</EventSchedule>
+	</Schedule>
 	
 	<EntryLevel>
-		<Castle Level="0" MinLevel="50"  MaxLevel="399" /> <!-- Chaos Castle 1 -->
+		<Castle Level="0" MinLevel="50" MaxLevel="399" /> <!-- Chaos Castle 1 -->
 		<Castle Level="1" MinLevel="400" MaxLevel="599" /> <!-- Chaos Castle 2 -->
 		<Castle Level="2" MinLevel="600" MaxLevel="699" /> <!-- Chaos Castle 3 -->
 		<Castle Level="3" MinLevel="700" MaxLevel="799" /> <!-- Chaos Castle 4 -->

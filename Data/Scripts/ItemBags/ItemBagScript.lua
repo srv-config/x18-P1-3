@@ -91,6 +91,8 @@
 	EVENTBAG_IWC_GM = 77
 	EVENTBAG_IWC_MEMBER = 78
 	EVENTBAG_IWC_PLAYER = 79
+	EVENTBAG_ITL = 80
+	EVENTBAG_ITL_WINNER = 81
 	
 -- Define Item Kind A values
 	ITEM_KIND_A_COMMON = 0
@@ -415,6 +417,9 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 74,0, 'Item_(14,462,0)_[Lvl3]_Monster_Soul_Converter') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 75,0, 'Item_(14,463,0)_[Lvl4]_Monster_Soul_Converter') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 76,0, 'Item_(14,464,0)_[Lvl5]_Monster_Soul_Converter') -- DropFunction /3/
+-- 77 - 79 IWC
+	AddItemBag(BAG_EVENT, 80,0, 'Event_IllusionTemple_League_Match_Win') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 81,0, 'Event_IllusionTemple_League_Tournament_Win') -- DropFunction /3/	
 
 -- Bags for purpose of Cherry Blossom Mix System
 	AddItemBag(BAG_EVENT, 13,0, 'Mix_Cherry_Blossom_Red_Reward') -- DropFunction /4/

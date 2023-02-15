@@ -40,7 +40,7 @@
 		<Msg ID="11" Text="Chaos combination is ongoing." />
 		<Msg ID="12" Text="Trading is not allowed in Devil Square." />
 		<Msg ID="13" Text="Special Game is not available" />
-		<Msg ID="14" Text="%s has logged out. Trading will be cancelled." />
+		<Msg ID="14" Text="%s has logged out. Trading will be canceled." />
 		<Msg ID="15" Text="This is an illegal duplicated item. Contact a GM." />
 		<Msg ID="16" Text="You have %d points left to get rid of the outlaw status." />
 		<Msg ID="17" Text="You have registered No.%d heart item(s)" />
@@ -73,7 +73,7 @@
 		<Msg ID="44" Text="Close the vault and exit" />
 		<Msg ID="45" Text="You are reached a maximum level" />
 		<Msg ID="46" Text="Warning! You will become an Outlaw if you kill anyone else again." />
-		<Msg ID="47" Text="The trade has been cancelled " />
+		<Msg ID="47" Text="The trade has been canceled " />
 		<Msg ID="48" Text="You already belong to a guild" />
 		<Msg ID="49" Text="Your level should be at least level 100" />
 		<Msg ID="50" Text="All items you're wearing should be at least +7 level." />
@@ -123,14 +123,14 @@
 		<Msg ID="94" Text="%s is in a Duel." />
 		<Msg ID="95" Text="Challenged %s to a Duel." />
 		<Msg ID="96" Text="You are already issuing a Duel challenge." />
-		<Msg ID="97" Text="Duelling is not allowed in NON-PK servers." />
+		<Msg ID="97" Text="Dueling is not allowed in NON-PK servers." />
 		<Msg ID="98" Text="An outlaw cannot issue a Duel challenge." />
 		<Msg ID="99" Text="You cannot Duel with an Outlaw." />
 		<Msg ID="100" Text="A duel is not allowed in Devil Square." />
 		<Msg ID="101" Text="%s has defeated the %s White Wizard Corps" />
-		<Msg ID="102" Text="The White Wizard and his minions are starting to assemble!" />
-		<Msg ID="103" Text="The White Wizard and his Orcs have invaded us!" />
-		<Msg ID="104" Text="The White Wizard has retreated." />
+		<Msg ID="102" Text="White Wizard and his Ogres are mobilizing their forces!" />
+		<Msg ID="103" Text="White Wizard and his Ogres have invaded us!" />
+		<Msg ID="104" Text="White Wizard has retreated!" />
 		<Msg ID="105" Text="You already possess the Wizard's Ring." />
 		<Msg ID="106" Text="You must be over Level 40 to throw the Ring." />
 		<Msg ID="107" Text="You cannot trade while inside Blood Castle." />
@@ -169,10 +169,10 @@
 		<Msg ID="140" Text="Magic Stones have already been conjured." />
 		<Msg ID="141" Text="You cannot use your Siege battle skills in this location." />
 		<Msg ID="142" Text="You have exceeded the amount of Zen you can possess." />
-		<Msg ID="143" Text="Summoning in process. It may be cancelled if you move." />
+		<Msg ID="143" Text="Summoning in process. It may be canceled if you move." />
 		<Msg ID="144" Text="You have insufficient level." />
 		<Msg ID="145" Text="Disconnect only after closing the Training window." />
-		<Msg ID="146" Text="Summoning cancelled." />
+		<Msg ID="146" Text="Summoning canceled." />
 		<Msg ID="147" Text="Not enough energy to use the skill, you need at least %d energy points" />
 		<Msg ID="148" Text="You have %d points remaining. You next payment period is on %s.%s.%s at %s:%s (%s)." />
 		<Msg ID="149" Text="You can play until %s.%s.%s with your current balance (%s)." />
@@ -214,7 +214,7 @@
 		<Msg ID="185" Text="Withdraw from the Alliance." />
 		<Msg ID="186" Text="%s Guild will withdraw from the %s Alliance." />
 		<Msg ID="187" Text="Withdraw from the %s Alliance." />
-		<Msg ID="188" Text="Hostile status with %s has been cancelled" />
+		<Msg ID="188" Text="Hostile status with %s has been canceled" />
 		<Msg ID="189" Text="The %s Alliance will be removed." />
 		<Msg ID="190" Text="%s's position has been changed to Battle Master." />
 		<Msg ID="191" Text="%s's position has been changed to Guild Member." />
@@ -278,7 +278,7 @@
 		<Msg ID="249" Text="%s is trying to contract altar %d!" />
 		<Msg ID="250" Text="You can start connecting in 5 seconds" />
 		<Msg ID="251" Text="Do not move until the connecting is completed." />
-		<Msg ID="252" Text="Connecting to the pedestal (%d) is cancelled." />
+		<Msg ID="252" Text="Connecting to the pedestal (%d) is canceled." />
 		<Msg ID="253" Text="The barrier of the holy wolf statue has disappeared" />
 		<Msg ID="254" Text="Statistics of Muses in the holy wolf statue's barrier is %d, HP: %d" />
 		<Msg ID="255" Text="The barrier of the Holy Wolf statue has been created." />
@@ -315,7 +315,7 @@
 		<Msg ID="286" Text="Cannot put the Moonstone Ring inside the Personal Store." />
 		<Msg ID="287" Text="You already have the transformation ring." />
 		<Msg ID="288" Text="Cannot join to party with opposite Gens" />
-		<Msg ID="289" Text="You do not have enough Money/Coin to start Offline Levelling." />
+		<Msg ID="289" Text="You do not have enough Money/Coin to start Offline Leveling." />
 		<Msg ID="290" Text="You cannot trade inside Illusion Temple." />
 		<Msg ID="291" Text="Illusion Temple is ongoing. You cannot join the party." />
 		<Msg ID="292" Text="Illusion Temple is ongoing. You cannot join the guild." />
@@ -350,7 +350,7 @@
 		<Msg ID="321" Text="It is not allowed while you are observer" />
 		<Msg ID="322" Text="%s is on duel, cannot be summoned" />
 		<Msg ID="323" Text="Duel starts in %d seconds" />
-		<Msg ID="324" Text="Duel cancelled. Moving to town in %d seconds" />
+		<Msg ID="324" Text="Duel canceled. Moving to town in %d seconds" />
 		<Msg ID="325" Text="You will be moved in %d seconds" />
 		<Msg ID="326" Text="[ArcaBattle] Guild Master Registration to Arca War is available for %d minutes." />
 		<Msg ID="327" Text="[ArcaBattle] Guild Master Registration to Arca War is available for %d minutes." />
@@ -518,12 +518,12 @@
 		<Msg ID="489" Text="Infinity Arrow Consumption(+2) : %d" />
 		<Msg ID="490" Text="Infinity Arrow activated, Time: %d sec" />
 		<Msg ID="491" Text="You need 220 level." />
-		<Msg ID="492" Text="FireScream Explosion Attack Distance: %d" />
+		<Msg ID="492" Text="Fire Scream Explosion Attack Distance: %d" />
 		<Msg ID="493" Text="VIP Status set to: [%s]" />
-		<Msg ID="494" Text="%d MINUTE(S) LEFT UNTIL ILLUSION TEMPLE CHAMPIONSHIP OPENS" />
-		<Msg ID="495" Text="You cannot enter the Illusion Temple Championship any more." />
-		<Msg ID="496" Text="%d MINUTE(S) LEFT UNTIL ILLUSION TEMPLE OPENS" />
-		<Msg ID="497" Text="You cannot enter the Illusion Temple any more." />
+		<Msg ID="494" Text="[Illusion Temple Championship] Entry will open in %d minute(s)" />
+		<Msg ID="495" Text="[Illusion Temple Championship] Entry to the even is now closed." />
+		<Msg ID="496" Text="[Illusion Temple] Entry will open in %d minute(s)" />
+		<Msg ID="497" Text="[Illusion Temple] Entry to the even is now closed." />
 		<Msg ID="498" Text="Gens reward is available, go to your Gens Master" />
 		<Msg ID="499" Text="You cannot warp to Battle Zone" />
 		<Msg ID="500" Text="You have entered to Battle Zone" />
@@ -653,7 +653,7 @@
 		<Msg ID="624" Text="You can not use the item restoration feature, and you can not recover items that are sold now." />
 		<Msg ID="625" Text="Internal Error" />
 		<Msg ID="626" Text="I can offer my service to %s VIP or higher only" />
-		<Msg ID="627" Text="You have successfully cancelled from Battle Core." />
+		<Msg ID="627" Text="You have successfully canceled from Battle Core." />
 		<Msg ID="628" Text="Cancel Battle Core is not possible on central server." />
 		<Msg ID="629" Text="Successfully created Avatar in Battle Core." />
 		<Msg ID="630" Text="Failed to create Avatar in Battle Core. Please cancel and join again" />
@@ -661,7 +661,7 @@
 		<Msg ID="632" Text="Applying to Battle Core failed" />
 		<Msg ID="633" Text="You cannot join Battle Core while personal store is open" />
 		<Msg ID="634" Text="You cannot join Battle Core while trading items" />
-		<Msg ID="635" Text="Offline Levelling cannot be used in Safe Zone" />
+		<Msg ID="635" Text="Offline Leveling cannot be used in Safe Zone" />
 		<Msg ID="636" Text="Your VIP Level is not enough, you need minimum %s VIP" />
 		<Msg ID="637" Text="Exceeded max zen! Change terminated." />
 		<Msg ID="638" Text="%s item changed to %d %s" />
@@ -681,14 +681,14 @@
 		<Msg ID="652" Text="You are not allowed to use crown!" />
 		<Msg ID="653" Text="This item cannot be disassembled" />
 		<Msg ID="654" Text="The command can be used only in Market Server" />
-		<Msg ID="655" Text="Doppel Ganger will open after %d minutes" />
-		<Msg ID="656" Text="Doppel Ganger will start after %d seconds" />
-		<Msg ID="657" Text="Tormented Square will be opened after %d minutes" />
-		<Msg ID="658" Text="Tormented Square will close doors after %d minutes" />
-		<Msg ID="659" Text="Tormented Square is closed." />
-		<Msg ID="660" Text="Tormented Square will open after %d minutes" />
-		<Msg ID="661" Text="Tormented Square will close after %d minutes" />
-		<Msg ID="662" Text="Tormented Square is closed." />
+		<Msg ID="655" Text="[Doppelganger] Opens in %d minute(s)" />
+		<Msg ID="656" Text="[Doppelganger] StartS in %d second(s)" />
+		<Msg ID="657" Text="[Tormented Square] Opens in %d minute(s)" />
+		<Msg ID="658" Text="[Tormented Square] Closes in %d minute(s)" />
+		<Msg ID="659" Text="[Tormented Square] is closed." />
+		<Msg ID="660" Text="[Tormented Square] Opens in %d minute(s)" />
+		<Msg ID="661" Text="[Tormented Square] Closes in %d minute(s)" />
+		<Msg ID="662" Text="[Tormented Square] is closed." />
 		<Msg ID="663" Text="%d seconds to move to Loren Market" />
 		<Msg ID="664" Text="You cannot enter the Best of the Best Match" />
 		<Msg ID="665" Text="Missing required equipment to move to this location" />
@@ -707,12 +707,12 @@
 		<Msg ID="678" Text="Welcome to our Mu Online Server!" />
 		<Msg ID="679" Text="Warping to Loren Deep is not available during Castle Siege battle" />
 		<Msg ID="680" Text="Only castle owners and union members may use this warp" />
-		<Msg ID="681" Text="Warping to Atlans or Icarus is impossible during Illussion Temple event" />
+		<Msg ID="681" Text="Warping to Atlans or Icarus is impossible during Illusion Temple event" />
 		<Msg ID="682" Text="You can equip weapons only if their socket count does not exceed %d" />
 		<Msg ID="683" Text="You need at least %d parties to enter the event" />
 		<Msg ID="684" Text="The jewel cannot be used with this kind of item" />
 		<Msg ID="685" Text="Your level is too low to be summoned to the location" />
-		<Msg ID="686" Text="The location is restriccted from Summoning" />
+		<Msg ID="686" Text="The location is restricted from Summoning" />
 		<Msg ID="687" Text="You cannot be summoned while Personal Store is opened" />
 		<Msg ID="688" Text="Killers are restricted from summoning" />
 		<Msg ID="689" Text="Party cannot be formed with PK." />
@@ -731,7 +731,7 @@
 		<Msg ID="702" Text="Invalid class name" />
 		<Msg ID="703" Text="Charged %d %s" />
 		<Msg ID="704" Text="[Transfer Syntax] &#60;Name&#61; &#60;Coin Type %s/%s&#61; &#60;Amount above 0&#61;" />
-		<Msg ID="705" Text="Transfered %d %s" /> 
+		<Msg ID="705" Text="Transferred %d %s" /> 
 		<Msg ID="706" Text="Received %d %s From %s" /> 
 		<Msg ID="707" Text="Exchanged %d GP for %d Zen" />
 		<Msg ID="708" Text="Exchanged %d Zen for %d GP" />
@@ -756,7 +756,7 @@
 		<Msg ID="729" Text="%s was successful in hunting golden EvoMon." />
 		<Msg ID="730" Text="Please reset fourth enhancement tree first." />
 		<Msg ID="731" Text="Min Reset Limit: %d, Max Reset Limit: %d."/>
-		<Msg ID="732" Text="%s has emerged golden evomon." />
+		<Msg ID="732" Text="%s has emerged golden EvoMon." />
 		<Msg ID="733" Text="Close the Pentagram Mix Window and exit." />
 		<Msg ID="734" Text="Channel-Change is not available at present, try again later." />
 		<Msg ID="735" Text="Channel-Change is available for VIP players only." />
@@ -798,8 +798,8 @@
 		<Msg ID="772" Text="Slayer" />
 		<!-- 773 -->
 		<Msg ID="774" Text="Creating party is possible only if level difference between players is not higher than %d" />
-		<Msg ID="775" Text="Maximum time of %d minutes in the boss zone passed, teleporting to safe zone." />
-		<Msg ID="776" Text="[Off-Level] Configure Mu Helper with basic attack skill before entering Offline Levelling." />
+		<Msg ID="775" Text="Maximum time of %d minutes in the boss zone passed, moving to safe zone." />
+		<Msg ID="776" Text="[Off-Level] Configure Mu Helper with basic attack skill before entering Offline Leveling." />
 		<Msg ID="777" Text="Luckily spawned in place where your soul left the body last time." />
 		<Msg ID="778" Text="You need to wait %d more seconds to ride it again." />
 		<Msg ID="779" Text="Game Server %s entered the game and is available in %s at %d,%d." />
@@ -849,6 +849,7 @@
 		<Msg ID="823" Text="Increase your VIP level to %s to learn Blessing of Experience skill." />
 		<Msg ID="824" Text="You need to be %d resets to learn Blessing of Experience skill." />
 		<Msg ID="825" Text="You need to be %d grand resets to learn Blessing of Experience skill." />
+		<Msg ID="826" Text="Entry and the event info are not available at the moment." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
@@ -942,9 +943,9 @@
 		<Msg ID="94" Text="Empty" />
 		<Msg ID="95" Text="Debenter" />
 		<Msg ID="96" Text="Debenter (Arca Battle)" />
-		<Msg ID="97" Text="Empty" />
-		<Msg ID="98" Text="Empty" />
-		<Msg ID="99" Text="Empty" />
+		<Msg ID="97" Text="Chaos Castle Championship" />
+		<Msg ID="98" Text="Illusion Temple League 1" />
+		<Msg ID="99" Text="Illusion Temple League 2" />
 		<Msg ID="100" Text="Urk Mountain" />
 		<Msg ID="101" Text="Urk Mountain" />
 		<Msg ID="102" Text="Tormented Square" />
