@@ -3,21 +3,24 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2010 - 2018 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sections that do not present in the file or having no items should always have DropRate set to 0
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 <SetItemType>
 	<DropRate>
-		<!--The following values are automatically generated. Modify as you wish.-->
 		<Section Index="0" DropRate="5000000" />
 		<Section Index="1" DropRate="5000000" />
-		<Section Index="2" DropRate="5000000" />
+		<Section Index="2" DropRate="0" />
 		<Section Index="3" DropRate="5000000" />
-		<Section Index="4" DropRate="5000000" />
+		<Section Index="4" DropRate="0" />
 		<Section Index="5" DropRate="5000000" />
 		<Section Index="6" DropRate="5000000" />
 		<Section Index="7" DropRate="5000000" />
@@ -25,10 +28,10 @@
 		<Section Index="9" DropRate="5000000" />
 		<Section Index="10" DropRate="5000000" />
 		<Section Index="11" DropRate="5000000" />
-		<Section Index="12" DropRate="5000000" />
+		<Section Index="12" DropRate="0" />
 		<Section Index="13" DropRate="5000000" />
-		<Section Index="14" DropRate="5000000" />
-		<Section Index="15" DropRate="5000000" />
+		<Section Index="14" DropRate="0" />
+		<Section Index="15" DropRate="0" />
 	</DropRate>
 	<Section Index="0" Name="Swords">
 		<Item Index="2" TierI="21" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />

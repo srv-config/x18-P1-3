@@ -520,10 +520,10 @@
 		<Msg ID="491" Text="You need 220 level." />
 		<Msg ID="492" Text="Fire Scream Explosion Attack Distance: %d" />
 		<Msg ID="493" Text="VIP Status set to: [%s]" />
-		<Msg ID="494" Text="[Illusion Temple Championship] Entry will open in %d minute(s)" />
-		<Msg ID="495" Text="[Illusion Temple Championship] Entry to the even is now closed." />
-		<Msg ID="496" Text="[Illusion Temple] Entry will open in %d minute(s)" />
-		<Msg ID="497" Text="[Illusion Temple] Entry to the even is now closed." />
+		<Msg ID="494" Text="[Illusion Temple Championship] Event starts in %d minute(s)" />
+		<Msg ID="495" Text="[Illusion Temple Championship] Entry to the event is now closed." />
+		<Msg ID="496" Text="[Illusion Temple] Event starts in %d minute(s)" />
+		<Msg ID="497" Text="[Illusion Temple] Entry to the event is now closed." />
 		<Msg ID="498" Text="Gens reward is available, go to your Gens Master" />
 		<Msg ID="499" Text="You cannot warp to Battle Zone" />
 		<Msg ID="500" Text="You have entered to Battle Zone" />
@@ -540,7 +540,7 @@
 		<Msg ID="511" Text="%s belongs to opposite side at the Siege event, cannot be summoned" />
 		<Msg ID="512" Text="Please disable Security Check" />
 		<Msg ID="513" Text="Creating character is disabled" />
-		<Msg ID="514" Text="" /> <!-- Empty -->
+		<Msg ID="514" Text="To change Element of Mastery Pentagram, remove first elemental options from it." />
 		<Msg ID="515" Text="Disconnecting due to using prohibited words in chat" />
 		<Msg ID="516" Text="Swear Warning Level: %d/3" />
 		<Msg ID="517" Text="[WHISPER] [%s] : [%s] %s" />

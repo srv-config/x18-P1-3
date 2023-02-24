@@ -27,8 +27,17 @@
 //	EndTime: Time after the first round the event is closed and NPC removed from the map, minutes
 //
 // ### HideAndSeek::Schedule::Start ###
-//	Hour: Start hour, 0-23
-//	Minute: Start minute: 0-59
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
 //
 // ### HideAndSeek::Rounds::Round ###
 //	Number: Round number, starting from 1, number of defined rounds must be equal to value defined in MaxRounds attribute
@@ -69,12 +78,11 @@
 -->
 
 <HideAndSeek Enable="0" FireWorks="1" MaxRounds="3">
-	<ActiveDay Sun="1" Mon="1" Tue="1" Wed="1" Thu="1" Fri="1" Sat="1" />
-	
+			
 	<Schedule NextRoundTime="1" EndTime="1">
-		<Start Hour="10" Minute="0" />
-		<Start Hour="14" Minute="0" />
-		<Start Hour="18" Minute="0" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="14" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="18" Minute="0" Second="-1" />
 	</Schedule>
 	
 	<Rounds>

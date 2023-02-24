@@ -52,7 +52,7 @@
 //	PosY: Y coordinate of the obelisk
 //	HP: Health of Obelisk at start of the event
 //	OccupyHP: Health of occupied Obelisk
-//	RegenTime: Time in which destroyed Obelisk will respawn after, milliseconds
+//	RegenTime: Time in which destroyed Obelisk will re-spawn after, milliseconds
 //	Name: Name of the obelisk, used for in-file description only
 //
 // ### ArcaBattleEvent::AuraPositionSettings::Aura ###
@@ -90,9 +90,9 @@
 //	EndX: EndX coordinate the players group will be spawned
 //	EndY: EndY coordinate the players group will be spawned
 //
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//	~ INFO ~ Reward for the item can be configured in Buff_AkeronTower_Drop.xml
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Ancient items drop for event winners is managed trough SetItemMonsterBag.xml, section of DropFlag="2"
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
