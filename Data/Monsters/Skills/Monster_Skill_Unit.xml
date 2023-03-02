@@ -158,4 +158,11 @@
 	<Unit Number="136" TargetType="1" ScopeType="1" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="136" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Water Monster Line Attack" />
 	<Unit Number="137" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Delay="300" ElementSlot0="136" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Water Monster Range Attack" />
 	<Unit Number="138" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="137" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="God of Darkness Attack" />
+	<Unit Number="148" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="148" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Multiple Monster AOE Skill" />
+	<Unit Number="149" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="149" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Temple Gremlin AOE Skill" />
+	<Unit Number="150" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="150" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Ashy Witch Queen Evil Spirit Skill" />
+	<Unit Number="151" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="151" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Harpy AOE Twister" />
+	<Unit Number="152" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="25" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Underground Persona - Demon" />
+	<Unit Number="154" TargetType="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Delay="300" ElementSlot0="28" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Underground Dread - 2 times a peer" />
+	<Unit Number="155" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="155" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Magma Shaman AOE Skill" />
 </MonsterSkill>

@@ -148,10 +148,37 @@
 	<Skill MonsterIndex="792" Type0="0" Unit0="135" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Pet of Swamp" />
 	<Skill MonsterIndex="793" Type0="0" Unit0="136" Type1="0" Unit1="137" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Water Monster" />
 	<Skill MonsterIndex="794" Type0="0" Unit0="138" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="God of Darkness" />
-	
+<!-- Kubera Mine -->
+	<Skill MonsterIndex="814" Type0="0" Unit0="33" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Dead Digger" />
+	<Skill MonsterIndex="815" Type0="0" Unit0="33" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Dead Shoveler" />
+<!-- Scorched Canyon -->
+	<Skill MonsterIndex="847" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Scotch Wizard" />
+	<Skill MonsterIndex="850" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Scorched Wizard" />
+	<Skill MonsterIndex="854" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Scorched Wizard" />
+<!-- Red Smoke Icarus -->
+	<Skill MonsterIndex="860" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Red Mega Crust" />
+	<Skill MonsterIndex="862" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Red Alpha Crust" />
+	<Skill MonsterIndex="864" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Great Drakan" />
+<!-- Arenil Temple -->
+	<Skill MonsterIndex="868" Type0="0" Unit0="149" Type1="0" Unit1="149" Type2="0" Unit2="149" Type3="0" Unit3="149" Type4="0" Unit4="149" Type5="0" Unit5="149" Type6="0" Unit6="149" Type7="0" Unit7="149" Type8="0" Unit8="149" Type9="0" Unit9="149" Name="Temple Gremlin" />
+	<Skill MonsterIndex="871" Type0="0" Unit0="149" Type1="0" Unit1="149" Type2="0" Unit2="149" Type3="0" Unit3="149" Type4="0" Unit4="149" Type5="0" Unit5="149" Type6="0" Unit6="149" Type7="0" Unit7="149" Type8="0" Unit8="149" Type9="0" Unit9="149" Name="(Elite) Temple Gremlin" />
+<!-- Ashen Aida -->
+	<Skill MonsterIndex="878" Type0="0" Unit0="150" Type1="0" Unit1="150" Type2="0" Unit2="150" Type3="0" Unit3="150" Type4="0" Unit4="150" Type5="0" Unit5="150" Type6="0" Unit6="150" Type7="0" Unit7="150" Type8="0" Unit8="150" Type9="0" Unit9="150" Name="Ashy Witch Queen" />
+	<Skill MonsterIndex="880" Type0="0" Unit0="150" Type1="0" Unit1="150" Type2="0" Unit2="150" Type3="0" Unit3="150" Type4="0" Unit4="150" Type5="0" Unit5="150" Type6="0" Unit6="150" Type7="0" Unit7="150" Type8="0" Unit8="150" Type9="0" Unit9="150" Name="(Elite) Ashy Bloody Witch Queen" />
+<!-- Kethotum and Blaze Kethotum -->
+	<Skill MonsterIndex="894" Type0="0" Unit0="151" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Old Crimson Harpy" />
+	<Skill MonsterIndex="897" Type0="0" Unit0="151" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Crimson Harpy" />
+	<Skill MonsterIndex="900" Type0="0" Unit0="151" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Crimson Harpy" />
+<!-- Kanturu Underground -->
+	<Skill MonsterIndex="905" Type0="-1" Unit0="-1" Type1="0" Unit1="152" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Underground Persona" />
+	<Skill MonsterIndex="907" Type0="-1" Unit0="-1" Type1="0" Unit1="154" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Underground Dreadfear" />
+	<Skill MonsterIndex="908" Type0="-1" Unit0="-1" Type1="0" Unit1="152" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Underground Persona" />
+	<Skill MonsterIndex="910" Type0="-1" Unit0="-1" Type1="0" Unit1="154" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Underground Dreadfear" />
+<!-- Ignis Volcano -->
+	<Skill MonsterIndex="913" Type0="0" Unit0="155" Type1="0" Unit1="155" Type2="0" Unit2="155" Type3="0" Unit3="155" Type4="0" Unit4="155" Type5="0" Unit5="155" Type6="0" Unit6="155" Type7="0" Unit7="155" Type8="0" Unit8="155" Type9="0" Unit9="155" Name="Magma Shaman" />
+	<Skill MonsterIndex="916" Type0="0" Unit0="155" Type1="0" Unit1="155" Type2="0" Unit2="155" Type3="0" Unit3="155" Type4="0" Unit4="155" Type5="0" Unit5="155" Type6="0" Unit6="155" Type7="0" Unit7="155" Type8="0" Unit8="155" Type9="0" Unit9="155" Name="(Elite) Magma Shaman" />
+<!-- Boss Battle Together -->	
 	<Skill MonsterIndex="922" Type0="31" Unit0="37" Type1="0" Unit1="34" Type2="0" Unit2="35" Type3="0" Unit3="36" Type4="0" Unit4="30" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1"  Unit9="-1" Name="Selupan" />
 	<Skill MonsterIndex="923" Type0="0" Unit0="117" Type1="0" Unit1="118" Type2="0" Unit2="119" Type3="0" Unit3="120" Type4="0" Unit4="121" Type5="0" Unit5="122" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Nix" />
 	<Skill MonsterIndex="924" Type0="0" Unit0="138" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="God of Darkness" />
-
 </MonsterSkill>
-
