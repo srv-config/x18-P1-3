@@ -17,10 +17,10 @@
 <SetItemType>
 	<DropRate>
 		<Section Index="0" DropRate="5000000" />
-		<Section Index="1" DropRate="5000000" />
-		<Section Index="2" DropRate="0" />
-		<Section Index="3" DropRate="5000000" />
-		<Section Index="4" DropRate="0" />
+		<Section Index="1" DropRate="0" />
+		<Section Index="2" DropRate="5000000" />
+		<Section Index="3" DropRate="0" />
+		<Section Index="4" DropRate="5000000" />
 		<Section Index="5" DropRate="5000000" />
 		<Section Index="6" DropRate="5000000" />
 		<Section Index="7" DropRate="5000000" />
@@ -42,12 +42,10 @@
 		<Item Index="33" TierI="56" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
 		<Item Index="34" TierI="63" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
 	</Section>
-	<Section Index="1" Name="Axes" />
 	<Section Index="2" Name="Maces and Scepters">
 		<Item Index="1" TierI="1" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
 		<Item Index="11" TierI="61" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
 	</Section>
-	<Section Index="3" Name="Spears" />
 	<Section Index="4" Name="Bows and Crossbows">
 		<Item Index="5" TierI="29" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
 		<Item Index="9" TierI="23" TierII="0" TierIII="0" TierIV="0" MixLevelA="0" MixLevelB="0" />
