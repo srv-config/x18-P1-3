@@ -816,7 +816,7 @@
 		<Msg ID="790" Text="Creating character of selected class requires reaching minimum level requirement or purchase of character card."/>
 		<Msg ID="791" Text="Dueling is not available in this server." />
 		<Msg ID="792" Text="Added %d %s" />
-		<Msg ID="793" Text="[LevelUp]: " />
+		<Msg ID="793" Text="[Level Up]: " />
 		<Msg ID="794" Text="[Reset]: " />
 		<Msg ID="795" Text="[Personal Store]: " />
 		<Msg ID="796" Text="[Quest]: " />
@@ -850,6 +850,9 @@
 		<Msg ID="824" Text="You need to be %d resets to learn Blessing of Experience skill." />
 		<Msg ID="825" Text="You need to be %d grand resets to learn Blessing of Experience skill." />
 		<Msg ID="826" Text="Entry and the event info are not available at the moment." />
+		<Msg ID="827" Text="Creating a party from same IP address is not allowed." />
+		<Msg ID="828" Text="You have been removed from party due to same IP restriction." />
+		<Msg ID="829" Text="You reached maximum number of Off-Playing characters." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />

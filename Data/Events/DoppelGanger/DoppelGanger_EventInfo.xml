@@ -30,13 +30,12 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //		~ 529-539
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//~~ Do not modify Doppel Ganger event monsters settings via
+//~~ Do not modify DoppelGanger event monsters settings via
 //~~ MonsterList.xml, use multipliers below. All values for
 //~~ the above defined indexes are set to 1 in MonsterList.xml
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
-// uzupelnij roomy i schedule na bazie ori pliku
 -->
 <DoppelGanger MinParty="2" MinUserInParty="5">
 <MonsterAttacksFirst DG="1" DW="0" DK="0" ELF="0" MG="0" DL="1" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" IK="0" AttackFirstRate="7000" />

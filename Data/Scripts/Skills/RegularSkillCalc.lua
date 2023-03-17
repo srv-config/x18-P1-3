@@ -652,15 +652,6 @@ function SummonerDamageReflect(Index, TargetIndex, TargetClass, Energy)
 	return Reflect, Time
 end
 
--- SkillID: 218, Berserker (Damage conversion is managed trough FormulaData.xml::Character section)
-function SummonerBerserker(Energy)
-	local SkillEffectUP = (Energy / 30) -- Attack Speed Increase
-	local SkillEffectDOWN = (Energy / 60) -- Life Decrease
-	local SkillTime = -10 -- minus 10 is equal to infinite time
-	
-	return SkillEffectUP, SkillEffectDOWN, SkillTime
-end
-
 -- SkillID: 288, Death Scythe
 function DeadScythe_Summoner(InDamage, TargetClass, Strength, Dexterity, Vitality, Energy, BarrageCount)
 	local OutDamage = 0
@@ -678,14 +669,6 @@ function DeadScythe_Summoner(InDamage, TargetClass, Strength, Dexterity, Vitalit
 	return OutDamage
 end
 
--- SkillID: 289, Darkness (Damage conversion is managed trough FormulaData.xml::Character section)
-function SummonerDarkness(Energy)
-	local SkillEffectUP = (Energy / 30) -- Defense Increase
-	local SkillEffectDOWN = (Energy / 60) -- Life Decrease
-	
-	return SkillEffectUP, SkillEffectDOWN
-end
-
 -- SkillID: 219, Sleep - MvP
 function Sleep_Monster(Energy, Curse, MonsterLevel)
 	local SkillSuccessRate = Energy / 30 + Curse / 6 + 20
@@ -700,46 +683,6 @@ function Sleep_PvP(Energy, Curse, PlayerLevel, TargetLevel)
 	local SkillTime = Energy / 250 + (PlayerLevel - TargetLevel) / 100 + 4
 	
 	return SkillSuccessRate, SkillTime
-end
-
--- SkillID: 221, Weakness - MvP
-function SummonerWeakness_Monster(Energy, Curse, MonsterLevel)
-	local SkillSuccessRate = Energy / 50 + Curse / 6 + 32
-	local SkillEffect = Energy / 58 + 4
-	local SkillTime = Energy / 100 + 4 - MonsterLevel / 20
-	
-	return SkillSuccessRate, SkillEffect, SkillTime
-end
-
--- SkillID: 221, Weakness - PvP
-function SummonerWeakness_PvP(Energy, Curse, PlayerLevel, PlayerMasterLevel, TargetLevel, TargetMasterLevel)
-	local PlayerTotalLevel = PlayerLevel + PlayerMasterLevel
-	local TargetTotalLevel = TargetLevel + TargetMasterLevel
-	local SkillSuccessRate =  Energy / 50 + Curse / 6 + 17
-	local SkillEffect = Energy / 93 + 3
-	local SkillTime = Energy / 300 + (PlayerTotalLevel - TargetTotalLevel) / 150 + 5
-	
-	return SkillSuccessRate, SkillEffect, SkillTime
-end
-
--- SkillID: 222, Innovation - MvP
-function SummonerInnovation_Monster(Energy, Curse, MonsterLevel)
-	local SkillSuccessRate = Energy / 50 + Curse / 6 + 32
-	local SkillEffect = Energy / 90 + 20
-	local SkillTime = Energy / 100 + 4 - MonsterLevel / 20
-	
-	return SkillSuccessRate, SkillEffect, SkillTime
-end
-
--- SkillID: 222, Innovation - PvP
-function SummonerInnovation_PvP(Energy, Curse, PlayerLevel, PlayerMasterLevel, TargetLevel, TargetMasterLevel)
-	local PlayerTotalLevel = PlayerLevel + PlayerMasterLevel
-	local TargetTotalLevel = TargetLevel + TargetMasterLevel
-	local SkillSuccessRate =  Energy / 50 + Curse / 6 + 17
-	local SkillEffect = Energy / 110 + 12
-	local SkillTime = Energy / 300 + (PlayerTotalLevel - TargetTotalLevel) / 150 + 5
-	
-	return SkillSuccessRate, SkillEffect, SkillTime
 end
 
 -- SkillID: 223, Explosion - Damage over time

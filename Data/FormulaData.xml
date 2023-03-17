@@ -79,21 +79,26 @@
 //	ID: Next unique ID of formula, starts from 0
 //	Data: The formula data, no spaces
 //		0: Berserker skill conversion
+//		1: Berserker Attack Speed Increase
+//		2: Berserker HP decrease
 //		3: Berserker Defense deduction
 //		4: Darkness skill conversion
 //		5: Darkness Defense addition
+//		6: Darkness HP decrease
+//		7: Weakness Min Magic Damage Increase
+//		8: Innovation Min Magic Damage Increase
 //		30: Spiral Charge Attack Damage Increase
-//		31: Spital Charge Defense Increase
+//		31: Spiral Charge Defense Increase
 //		32: Crusher Charge Attack Speed Increase
 //		33: Crusher Charge Defense Increase
-//		34: Elemental Charge Wizadry Increase
+//		34: Elemental Charge Wizardry Increase
 //		35: Elemental Charge Defense Increase
 //		36: Elemental Damage Increase
 //		37: Duration time for formulas 36 and 38
 //		38: Elemental Defense Increase
 //		39: Dex Booster Duration Time
 //		40: Dex Booster Attack Speed Increase
-//		42: Illussion Blade Attack Damage
+//		42: Illusion Blade Attack Damage
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
@@ -575,14 +580,14 @@
 	</Wing4thDefense>
 	<Character>
 		<Formula ID="0" Data="(%d/3.5)+(%d-(%d*0.86))*(%d*0.002)" /> <!-- Energy, CurseAddDamage, CurseAddDamage, CurseAddDamage -->
-		<Formula ID="1" Data="%d/500" /> <!--  -->
-		<Formula ID="2" Data="(%d/300)*0.01" /> <!--  -->
+		<Formula ID="1" Data="%d/500" /> <!-- Energy -->
+		<Formula ID="2" Data="(%d/300)*0.01" /> <!-- Energy -->
 		<Formula ID="3" Data="(%d/200)*0.01" /> <!-- Energy -->
 		<Formula ID="4" Data="(%d/3.5)+(%d-(%d*0.91))*(%d*0.002)" /> <!-- Energy, WizadryAddDamage, WizadryAddDamage, WizadryAddDamage -->
 		<Formula ID="5" Data="%d/5" /> <!-- Energy -->
-		<Formula ID="6" Data="(%d/300)*0.01" /> <!--  -->
-		<Formula ID="7" Data="((%d/3)*0.15)" /> <!--  -->
-		<Formula ID="8" Data="((%d/3)*0.15)" /> <!--  -->
+		<Formula ID="6" Data="(%d/300)*0.01" /> <!-- Energy -->
+		<Formula ID="7" Data="((%d/3)*0.15)" /> <!-- Energy -->
+		<Formula ID="8" Data="((%d/3)*0.15)" /> <!-- Energy -->
 		<Formula ID="9" Data="((((((%d*%d)*0.6/24)+(((%d-800)*(%d-500))/200))/24)+2000))" /> <!--  -->
 		<Formula ID="10" Data="%d*0+%d*0" /> <!--  -->
 		<Formula ID="11" Data="5+(%d/100)+(%d/100)" /> <!--  -->
@@ -617,7 +622,7 @@
 		<Formula ID="40" Data="30" /> <!-- None -->
 		<Formula ID="41" Data="2000" /> <!-- None -->
 		<Formula ID="42" Data="((%d/4)+(%d/14))" /> <!-- Strength, Agility -->
-		<Formula ID="43" Data="(%d/50)+(40+((%d+10)^2/16))+(%d*0)+(%d/3.5)" />
+		<Formula ID="43" Data="(%d/50)+(40+((%d+10)^2/16))+(%d*0)+(%d/3.5)" /> <!--  -->
 	</Character>
 	<GuardianItem>
 		<Formula ID="0" Data="20+((9+%d)/2)^2" /> <!-- ItemLevel -->
