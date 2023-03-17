@@ -379,9 +379,7 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 25,0, 'Mix_Senior_Reward') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 26,0, 'Monster_(275)_Kundun') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 27,0, 'Event_AcheronGuardian_Reward') -- DropFunction /3/
-	AddItemBag(BAG_EVENT, 28,0, 'Event_MuRummy_Reward_1') -- DropFunction /4/
-	AddItemBag(BAG_EVENT, 29,0, 'Event_MuRummy_Reward_2') -- DropFunction /4/
-	AddItemBag(BAG_EVENT, 30,0, 'Event_MuRummy_Reward_3') -- DropFunction /4/
+-- 28 - 30
 	AddItemBag(BAG_EVENT, 31,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
 -- 32 - 33
 	AddItemBag(BAG_EVENT, 34,0, 'Event_IllusionTemple_Renewal_1') -- DropFunction /3/
