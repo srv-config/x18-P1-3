@@ -20,8 +20,17 @@
 //	ToClose: Time to warp to the town after event end, seconds
 
 // ### BossBattleTogether::Schedule ###
-//	Hour: Start hour of the event, 0-23
-//	Minute: Start minute of the event, 0-59
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
 //
 // ### BossBattleTogether::RewardList ###
 //	Mission: Mission number the reward is assigned to:
@@ -43,8 +52,7 @@
 	<Time ToOpen="300" ToStart="30" PlayDuration="300" ToClose="30" />
 	
 	<Schedule>
-		<Start Hour="11" Minute="0" />
-		<Start Hour="20" Minute="0" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="20" Minute="0" Second="-1" />
 	</Schedule>
 	
 	<RewardList>
