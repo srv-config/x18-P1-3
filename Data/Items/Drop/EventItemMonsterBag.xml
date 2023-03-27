@@ -11,7 +11,7 @@
 // ### EventItemDrop::DropItem ###
 //	EventType: Specified events can be enabled using EventitemDrop.ini
 //		~ 0: Ribbon Box
-//		~ 1: Chockolate Box
+//		~ 1: Chocolate Box
 //		~ 2: Candy Box
 //		~ 3: Christmas Star
 //		~ 4: Firecracker
