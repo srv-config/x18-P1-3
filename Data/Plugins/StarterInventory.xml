@@ -81,6 +81,9 @@
 //~~ The ID value is configured within ID attribute in ### ItemList::Item ### section
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
+// ### StarterInventory::ServerList::Server::Character::Skills ###
+//	List: List of skills to add to the character, syntax: X;X;X;X;X;X;X etc; where X is skill index from SkillList.xml (third/fourth skill tree skills are not supported), skill must belong to specific character class/evo, maximum 40 skills
+//
 // ### StarterInventory::ServerList::Server::Character::Inventory ###
 //	List: List of items to insert to regular inventory, syntax: X;X;X;X;X;X;X etc; where X is ID value of item from ItemList::Item section of the file
 //
@@ -184,6 +187,7 @@
 			<Character Class="0" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Dark Wizard -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="0" WeaponLeft="1" Helm="41" Armor="52" Pants="63" Gloves="74" Boots="85" Wings="95" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -193,6 +197,7 @@
 			<Character Class="1" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Dark Knight -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="2" WeaponLeft="3" Helm="29" Armor="50" Pants="61" Gloves="72" Boots="83" Wings="96" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -202,6 +207,7 @@
 			<Character Class="2" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Elf -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="4" WeaponLeft="5" Helm="30" Armor="51" Pants="62" Gloves="73" Boots="84" Wings="94" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -211,6 +217,7 @@
 			<Character Class="3" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Magic Gladiator -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="6" WeaponLeft="7" Helm="-1" Armor="52" Pants="63" Gloves="74" Boots="85" Wings="96" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -220,6 +227,7 @@
 			<Character Class="4" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Dark Lord -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="8" WeaponLeft="-1" Helm="29" Armor="50" Pants="61" Gloves="72" Boots="83" Wings="97" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="10" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -229,6 +237,7 @@
 			<Character Class="5" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Summoner -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="11" WeaponLeft="12" Helm="42" Armor="53" Pants="64" Gloves="75" Boots="86" Wings="97" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -238,6 +247,7 @@
 			<Character Class="6" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Rage Fighter -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="13" WeaponLeft="13" Helm="29" Armor="50" Pants="61" Gloves="-1" Boots="83" Wings="95" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -246,6 +256,7 @@
 			
 			<Character Class="7" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Grow Lancer -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
+				<Skills List="" />
 				<Equipment WeaponRight="15" WeaponLeft="16" Helm="43" Armor="54" Pants="65" Gloves="76" Boots="87" Wings="97" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
 				<Inventory List="" />
 				<EventInventory List="" />
@@ -255,6 +266,7 @@
 			
 			<Character Class="8" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Rune Wizard -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
+				<Skills List="" />
 				<Equipment WeaponRight="17" WeaponLeft="18" Helm="44" Armor="55" Pants="66" Gloves="77" Boots="88" Wings="95" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
 				<Inventory List="" />
 				<EventInventory List="" />
@@ -265,6 +277,7 @@
 			<Character Class="9" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Slayer -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="19" WeaponLeft="19" Helm="45" Armor="56" Pants="67" Gloves="78" Boots="89" Wings="96" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -274,6 +287,7 @@
 			<Character Class="10" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Gun Crusher -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="21" WeaponLeft="21" Helm="46" Armor="57" Pants="68" Gloves="79" Boots="90" Wings="95" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -283,6 +297,7 @@
 			<Character Class="11" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Light Wizard -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="0" WeaponLeft="23" Helm="47" Armor="58" Pants="69" Gloves="80" Boots="91" Wings="98" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -292,6 +307,7 @@
 			<Character Class="12" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Lemuria Mage -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="25" WeaponLeft="7" Helm="48" Armor="59" Pants="70" Gloves="81" Boots="92" Wings="95" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
@@ -301,6 +317,7 @@
 			<Character Class="13" Evo="1" Level="-1" MasterLevel="-1" Resets="0" MarlonQuest="0" Zen="1000" Ruud="100"> <!-- Illusion Knight -->
 				<Stats Strength="0" Dexterity="0" Vitality="0" Energy="0" Command="0" FreeStatPts="400" FreeMasterPts3rd="0" FreeMasterPts4th="0" />
 				<Equipment WeaponRight="28" WeaponLeft="-1" Helm="49" Armor="60" Pants="71" Gloves="82" Boots="93" Wings="99" Helper="170" Pendant="110" RingRight="126" RingLeft="127" Pentagram="-1" EarringRight="-1" EarringLeft="-1" />
+				<Skills List="" />
 				<Inventory List="" />
 				<EventInventory List="" />
 				<MuunInventory List="" />
