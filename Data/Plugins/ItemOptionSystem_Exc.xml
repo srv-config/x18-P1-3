@@ -21,7 +21,7 @@
 //		~ 1: Attack speed is reduced to half, (Probability %)
 //		~ 2: Freeze the enemy for 5 seconds, (Probability %)
 //		~ 3: Stun enemy for 3 seconds, (Probability %)
-//		~ 4: Auto Combo Hurt, There's a chance to strik with Combo Hurt, (Probability %) 
+//		~ 4: Auto Combo Hurt, There's a chance to strike with Combo Hurt, (Probability %) 
 //		~ 5: Double damage, (Probability %)
 //		~ 6: Increased attack power, (Probability %)
 //		~ 7: Increase in total blood volume, (Probability %)
@@ -63,11 +63,11 @@
 //		~ 43: Elemental Defense Increase
 //		~ 46: Stun 4th Tree
 //		~ 47: Nothing
-//		~ 48: Total invincibilty
+//		~ 48: Total invincibility
 //		~ 49: Increase chaos mix rate +%
 //		~ 50: Increase Exp +%
 //		~ 51: Increase Item Drop rate +%
-//	OptionValue: Value to applt the option with
+//	OptionValue: Value to apply the option with
 //	Probability to apply the option on item, 0-100
 //	Ancient: If set to 1 the option will apply to specified set item only
 //	Excellent: Minimum excellent options the item has to apply new option
@@ -81,6 +81,17 @@
 -->
 
 <ItemOptionSystem Enabled="0" Password="WErt$4t3">
+<Notices PrintRequirementNotice="1" ColorID="10">
+	<Strings>
+		<String Index="0" Text=" (Rq " />
+	</Strings>
+	<Requirements>
+		<Req Index="0" Text=" Lv >= +%d"/>
+		<Req Index="1" Text=" Anc %d" />
+		<Req Index="2" Text=" Exc Cnt >= %d" />
+		<Req Index="3" Text=" Sckt >= %d" />
+	</Requirements>
+</Notices>
 	<Items>
 		<Item Cat="5" Index="10" MinLevel="15" SocketCount="0" OptionIndex="0" OptionValue="5" OptionProbability="100" Ancient="-1" Excellent="1" />
 		<Item Cat="5" Index="10" MinLevel="15" SocketCount="0" OptionIndex="1" OptionValue="5" OptionProbability="100" Ancient="-1" Excellent="1" />
