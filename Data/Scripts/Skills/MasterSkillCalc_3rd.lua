@@ -1088,7 +1088,7 @@ function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeVa
 	return SkillEffect1, SkillEffect2, SkillTime
 end
 
--- SkillID: 781, Bat Flock Strenghtener - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
+-- SkillID: 781, Bat Flock Strengthener - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function BatFlock_MasterLevel1_DotDamage(InDamage, Strength, Energy)
 	local Damage = InDamage
 	local DotDamage = InDamage / 10
@@ -1106,7 +1106,7 @@ function BatFlock_MasterLevel2_DotDamage(InDamage, Strength, Energy)
 	return Damage, DotDamage, Time
 end
 
--- SkillID: 781, Bat Flock Strenghtener - (Damage) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
+-- SkillID: 781, Bat Flock Strengthener - (Damage) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerBatFlock_MasterLevel1_Calc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
 	OutDamage = OutDamage * 0.5
@@ -1196,7 +1196,7 @@ function KnightSolidProtection_MasterLevel3 (NormalLevel, MasterLevel, Strength,
 	return AbsorbHP, IncAtkPower, ConvertDamage, Duration
 end
 
--- SkillID: 807, Strike of Destruction Strenghtener - (Blade Master)
+-- SkillID: 807, Strike of Destruction Strengthener - (Blade Master)
 function StrikeOfDestructionCalc_MasterLevel1_Knight(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
 	local OutDamage = 0
 
@@ -1235,7 +1235,7 @@ function TorandoCuttingCalc_Level1(InDamage, Strength, Dexterity, Vitality, Ener
 	return OutDamage
 end
 
--- SkillID: 820, Dark Plasma Strenghtener - (Master Gun Breaker, Heist Gun Crusher)
+-- SkillID: 820, Dark Plasma Strengthener - (Master Gun Breaker, Heist Gun Crusher)
 function GunCrusherDarkPlasma_Level1(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = 0
 	OutDamage = InDamage * ((Energy / 8) + (Dexterity / 28) + 120) / 100
@@ -1259,7 +1259,7 @@ function GunCrusherDarkPlasma_Level3(InDamage, Strength, Dexterity, Vitality, En
 	return OutDamage
 end
 
--- SkillID: 823, Ice Break Strenghtener - (Master Gun Breaker, Heist Gun Crusher)
+-- SkillID: 823, Ice Break Strengthener - (Master Gun Breaker, Heist Gun Crusher)
 function GunCrusherIceBreak_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1289,7 +1289,7 @@ function GunCrusherIceBreak_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vit
 	return OutDamage
 end
 
--- SkillID: 825, Death Fire Strenghtener - (Master Gun Breaker, Heist Gun Crusher)
+-- SkillID: 825, Death Fire Strengthener - (Master Gun Breaker, Heist Gun Crusher)
 function GunCrusherDeathFire_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1315,7 +1315,19 @@ function GunCrusherDeathFire_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vi
 	return OutDamage
 end
 
--- SkillID: 825, Death Ice Strenghtener - (Master Gun Breaker, Heist Gun Crusher)
+-- SkillID: 828: Fixed Fire Strengthener
+function GunCrusherFixedFire_MasterLevel1_Calc(Strength, Dexterity, Vitality, Energy)
+	local SkillAddAttackSpeed = Dexterity / 50
+	return SkillAddAttackSpeed
+end
+
+-- SkillID: 829: Fixed Fire Mastery
+function GunCrusherFixedFire_MasterLevel2_Calc(Strength, Dexterity, Vitality, Energy)
+	local SkillAddAttackSpeed = Dexterity / 50
+	return SkillAddAttackSpeed
+end
+
+-- SkillID: 835, Death Ice Strengthener - (Master Gun Breaker, Heist Gun Crusher)
 function GunCrusherDeathIce_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1328,7 +1340,7 @@ function GunCrusherDeathIce_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vit
 	return OutDamage
 end
 
--- SkillID: 826, Death Ice Mastery - (Master Gun Breaker, Heist Gun Crusher)
+-- SkillID: 836, Death Ice Mastery - (Master Gun Breaker, Heist Gun Crusher)
 function GunCrusherDeathIce_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1341,7 +1353,7 @@ function GunCrusherDeathIce_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vit
 	return OutDamage
 end
 
--- SkillID: 843, Shining Bird Strenghtener
+-- SkillID: 843, Shining Bird Strengthener
 function LightWizardShiningBird_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1359,7 +1371,7 @@ function LightWizardShiningBird_MasterLevel2_Calc(InDamage, Strength, Dexterity,
 	return OutDamage
 end
 
--- SkillID: 846, Dragon Violent Strenghtener
+-- SkillID: 846, Dragon Violent Strengthener
 function LightWizardDragonViolent_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount, SkillTreeValue)
 	local OutDamage = 0
 	
@@ -1385,7 +1397,7 @@ function LightWizardDragonViolent_MasterLevel2_Calc(InDamage, Strength, Dexterit
 	return OutDamage
 end
 
--- SkillID: 861, Reflection Barrier Strenghtener
+-- SkillID: 861, Reflection Barrier Strengthener
 function LightWizardReflectionBarrier_MasterLevel1_Calc(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, SkillTreeValue)
 	local ReflectProbability = 50
 	local ReflectShockDmgPercentage = 15 + SkillTreeValue
@@ -1409,7 +1421,7 @@ function LightWizardReflectionBarrier_MasterLevel3_Calc(Level, MasterLevel, Stre
 	return ReflectProbability, ReflectShockDmgPercentage, Duration
 end
 
--- SkillID: 848, Marvel Burst Strenghtener
+-- SkillID: 848, Marvel Burst Strengthener
 function LemuriaMageMarvelBurst_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = 0
 	
@@ -1427,7 +1439,7 @@ function LemuriaMageMarvelBurst_MasterLevel2_Calc(InDamage, Strength, Dexterity,
 	return OutDamage
 end
 
--- SkillID: 851, Beginner Defense Improvement Strenghtener
+-- SkillID: 851, Beginner Defense Improvement Strengthener
 function LemuriaMageDefense_Level1(Class, Index, TargetIndex, Energy)
 	local SkillEffect = 0
 	local SkillTime = 60
@@ -1511,7 +1523,7 @@ function LemuriaMageDefense_Level2(Class, Index, TargetIndex, Energy)
 	return SkillEffect, SkillTime
 end
 
--- SkillID: 853, Beginner Attack Power Improvement Strenghtener
+-- SkillID: 853, Beginner Attack Power Improvement Strengthener
 function LemuriaMageAttack_Level1(Class, Index, TargetIndex, Energy)
 	local SkillEffect = 0
 	local SkillTime = 60
@@ -1595,7 +1607,7 @@ function LemuriaMageAttack_Level2(Class, Index, TargetIndex, Energy)
 	return SkillEffect, SkillTime
 end
 
--- SkillID: 855, Unleash Marvel Strenghtener
+-- SkillID: 855, Unleash Marvel Strengthener
 function LemuriaMageUnleashMarvel_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = 0
 	
@@ -1613,7 +1625,7 @@ function LemuriaMageUnleashMarvel_MasterLevel2_Calc(InDamage, Strength, Dexterit
 	return OutDamage
 end
 
--- SkillID: 857, Beginner Bless Strenghtener
+-- SkillID: 857, Beginner Bless Strengthener
 function LemuriaMageBless_Level1(Energy)
 	local SkillEffect = Energy / 150
 	

@@ -9,14 +9,15 @@
 // ============================================================
 //
 // ### ItemOptionSystem ###
-//	Enable: Deactivates or activates the system: 0/1
+//	Enabled: Deactivates or activates the system: 0/1
+//	Password: A password used by ToolKit ServerInfo (XML) editor to encode the file, max 8 characters
 //
 // ### ItemOptionSystem::Items::Item ###
 //	Cat: Group of item, see ItemList.xml
 //	Index: Index of item, see ItemList.xml
 //	MinLevel: Minimum level of item to qualify it for the option
 //	SocketCount: Minimum count of sockets of item to qualify it for the option
-//	Option Index:
+//	OptionIndex:
 //		~ 0: Total amount of HP is reduced to half, (Probability %)
 //		~ 1: Attack speed is reduced to half, (Probability %)
 //		~ 2: Freeze the enemy for 5 seconds, (Probability %)
@@ -68,8 +69,12 @@
 //		~ 50: Increase Exp +%
 //		~ 51: Increase Item Drop rate +%
 //	OptionValue: Value to apply the option with
-//	Probability to apply the option on item, 0-100
-//	Ancient: If set to 1 the option will apply to specified set item only
+//	OptionProbability: Probability to apply the option on item, 0-100
+//	Ancient:
+//		-1: Any item, either none and ancient
+//		0: No ancient items only
+//		1: Ancient items only
+//
 //	Excellent: Minimum excellent options the item has to apply new option
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

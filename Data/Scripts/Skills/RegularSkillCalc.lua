@@ -1443,6 +1443,12 @@ function LemuriaMageBless(Energy)
 	return SkillEffect
 end
 
+-- SkillID: 2021: Fixed Fire
+function GunCrusherFixedFireCalc(Strength, Dexterity, Vitality, Energy)
+	local SkillAddAttackSpeed = Dexterity / 50
+	return SkillAddAttackSpeed
+end
+
 -- SkillID: 2022, Bond
 function BondAttack_TickDmg_Monster(Level, MasterLevel, Strength, Dexterity, Vitality, Energy, MagicDamageMin, MagicDamageMax)
 	local SkillEffect = MagicDamageMax / 4

@@ -438,6 +438,8 @@ function LemuriaMageUltimateForce_4thEnchant_Calc(InDamage, Strength, Dexterity,
 		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
 	end
 	
 	return OutDamage
