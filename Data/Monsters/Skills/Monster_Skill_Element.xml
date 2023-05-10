@@ -160,9 +160,11 @@
 	<Element Number="135" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="-1" CharacterClass="0" CharacterLevel="0" Name="Pet Monster Attack" />
 	<Element Number="136" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Water Monster Attack" />
 	<Element Number="137" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Water Monster Attack" />
+	<Element Number="138" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Bahamutt Monster AOE Attack" />
 	<Element Number="148" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Multiple Monster AOE Attack" />
 	<Element Number="149" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Temple Gremlin AOE Attack" />
 	<Element Number="150" Type="20" SuccessRate="100" ContinuanceTime="10" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="-1" CharacterClass="0" CharacterLevel="0" Name="Ashy Witch Queen Evil Spirit Attack" /> 
 	<Element Number="151" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Harpy AOE Attack" />
 	<Element Number="155" Type="20" SuccessRate="100" ContinuanceTime="0" IncAndDecType="-1" IncAndDecValue="-1" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Magma Shaman AOE Attack" />
+	<Element Number="156" Type="3" SuccessRate="100" ContinuanceTime="0" IncAndDecType="12" IncAndDecValue="200" NullifiedMagic="300" CharacterClass="0" CharacterLevel="0" Name="Magma Shaman Mana Reduction" />
 </MonsterSkill>

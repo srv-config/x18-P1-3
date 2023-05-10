@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -11,7 +11,7 @@
 // ### ResetSystem ###
 //	Enable: Activates or deactivates the system, 0/1
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//~~ If enabled the old reset system from Common.ini will be automatucally disabled.
+//~~ If enabled the old reset system from Common.ini will be automatically disabled.
 //~~ To allow smooth switch to new system we will keep old reset system for next few updates
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -22,17 +22,18 @@
 //		~ 2: Regular + master level
 //
 //	MinLevel: Minimum level to perform reset
-//	MinVipType: Minimum VIP Level to use Restets System
-//	MaxResets: Maximum number of resets
+//	MinVipType: Minimum VIP Level to use Resets System
+//	MaxInGameResets: Maximum number of resets that can be achieved by using in-game /reset command
+//	MaxWebResets: Maximum number of resets that can be achieved by character, not necessarily in-game but web module, must be equal or larger than MaxInGameResets
 //
 // ### ResetSystem::Settings ###
-//	RemoveEquipment: Determines whether equipment removal is required before performin reset, 0/1
+//	RemoveEquipment: Determines whether equipment removal is required before performing reset, 0/1
 //	RemoveFromParty: Determines whether to remove from party after reset, 0/1
 //	EnableMuHelper: Determines whether enable the MuHelper back after reset, 0/1
 //	ClearBuffs: Determines whether to clear existing buffs after reset, 0/1
 //	ResetStats: Determines whether to reset character stats after reset, 0/1
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//~~ Enablin that option will auto force moving to character selection screen after reset
+//~~ Enabling that option will auto force moving to character selection screen after reset
 //~~ Stat points for all passed milestones will be calculated and returned as free Level Up Points
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
@@ -70,8 +71,8 @@
 //~~ If fruits are set to reset along with reset stats enabled, the create fruit points are deducted upon reset to avoid incremental accumulation
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-//	MilestoneID: A milestone reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see MilestonesRewardList section
-//	RewardSetID: A regular reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see RegResetsRewardList section
+//	MilestoneID: A milestone reset rule ID to execute upon reset, -1 if do milestone applies to specific range, see MilestonesRewardList section
+//	RewardSetID: A regular reset rule ID to execute upon reset, -1 if do milestone applies to specific range, see RegResetsRewardList section
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ All MilestoneID and RewardSetID should be configured increasing way without numbering gaps, -1 if rule does not apply to specific range
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,11 +84,11 @@
 //	Zen: Number of Zen to award with, 0 to disable
 //	Ruud: Number of Ruud to award with, 0 to disable
 //	LevelUpPoints: Number of Level Up points to award with, 0 to disable
-//	MultiplyPointByReset: If enabled the LevelUpPoints are multipled by number of resets, 0/1
+//	MultiplyPointByReset: If enabled the LevelUpPoints are multiplied by number of resets, 0/1
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ For VIP players the value of PointPerResetBonus from VIPSettings.xml is added before being multiplied
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//	ContributePoints: Gens contribute points to award, applies only for gens fsamily members
+//	ContributePoints: Gens contribute points to award, applies only for gens family members
 //	ItemBagID: ID of event item bag type defined in ItemBagScript.lua, -1 if not applies
 //
 // ### ResetSystem::MilestonesRewardList::Reward ###
@@ -100,7 +101,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ For milestone resets the LevelUpPoints are awarded as one time points and are not multiplied by resets
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//	ContributePoints: Gens contribute points to award, applies only for gens fsamily members
+//	ContributePoints: Gens contribute points to award, applies only for gens family members
 //	ItemBagID: ID of event item bag type defined in ItemBagScript.lua, -1 if not applies
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
@@ -108,7 +109,7 @@
 -->
 
 <ResetSystem Enable="0">
-<Requirements MinLevelMode="0" MinLevel="400" MaxResets="100" MinVipType="-1" />
+<Requirements MinLevelMode="0" MinLevel="400" MaxInGameResets="100" MaxWebResets="100" MinVipType="-1" />
 <Settings RemoveEquipment="1" RemoveFromParty="1" EnableMuHelper="0" ClearBuffs="1" ResetStats="0" SaveOldStatPoint="0" ResetMasterLevel="0" MoveToCharSelectWindow="0" StayOnPosition="0" MaxResetPoints="0" LevelAfterReset="1" MasterLevelAfterReset="0" />
 
 	<DynamicResetRangeList> <!-- First rule that matches player requirements will be applied, therefore order of entries matters -->

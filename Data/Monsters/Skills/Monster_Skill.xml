@@ -151,6 +151,10 @@
 <!-- Kubera Mine -->
 	<Skill MonsterIndex="814" Type0="0" Unit0="33" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Dead Digger" />
 	<Skill MonsterIndex="815" Type0="0" Unit0="33" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Dead Shoveler" />
+<!-- Abyss of Atlans -->
+	<Skill MonsterIndex="832" Type0="0" Unit0="51" Type1="0" Unit1="144" Type2="0" Unit2="144" Type3="0" Unit3="144" Type4="0" Unit4="144" Type5="0" Unit5="144" Type6="0" Unit6="144" Type7="0" Unit7="144" Type8="0" Unit8="144" Type9="0" Unit9="144" Name="Bahamut of Abyss" />
+	<Skill MonsterIndex="834" Type0="0" Unit0="51" Type1="0" Unit1="144" Type2="0" Unit2="144" Type3="0" Unit3="144" Type4="0" Unit4="144" Type5="0" Unit5="144" Type6="0" Unit6="144" Type7="0" Unit7="144" Type8="0" Unit8="144" Type9="0" Unit9="144" Name="Medium Bahamut of Abyss" />
+	<Skill MonsterIndex="836" Type0="0" Unit0="51" Type1="0" Unit1="51" Type2="0" Unit2="144" Type3="0" Unit3="144" Type4="0" Unit4="144" Type5="0" Unit5="144" Type6="0" Unit6="144" Type7="0" Unit7="144" Type8="0" Unit8="144" Type9="0" Unit9="144" Name="Great Bahamut of Abyss" />
 <!-- Scorched Canyon -->
 	<Skill MonsterIndex="847" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="Scotch Wizard" />
 	<Skill MonsterIndex="850" Type0="0" Unit0="148" Type1="-1" Unit1="-1" Type2="-1" Unit2="-1" Type3="-1" Unit3="-1" Type4="-1" Unit4="-1" Type5="-1" Unit5="-1" Type6="-1" Unit6="-1" Type7="-1" Unit7="-1" Type8="-1" Unit8="-1" Type9="-1" Unit9="-1" Name="(Elite) Scorched Wizard" />
