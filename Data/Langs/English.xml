@@ -853,6 +853,9 @@
 		<Msg ID="827" Text="Creating a party from same IP address is not allowed." />
 		<Msg ID="828" Text="You have been removed from party due to same IP restriction." />
 		<Msg ID="829" Text="You reached maximum number of Off-Playing characters." />
+		<Msg ID="830" Text="[System] The server version is not up-to-date, consider updating." /> <!-- Thrown to Admin/GM if server is not running on latest version of the season -->
+		<Msg ID="831" Text="[System] The server is running on test version that will be disabled at the end of test cycle." /> <!-- Thrown to Admin/GM if server is running on test version that will expiry -->
+		<Msg ID="832" Text="[System] The server is running on vulnerable version, update as quick as possible." /> <!-- Thrown to Admin/GM if server is running on version that has been identified as vulnerable -->
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
