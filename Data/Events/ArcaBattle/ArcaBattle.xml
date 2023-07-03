@@ -3,14 +3,15 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
 // ### ArcaBattleEvent ###
 //	Enable: Deactivates or Activates the event, 0/1
-//	MinGuildMember:
+//	MinGuildMember: Minimum number of members in guild to qualify the guild to participate in the event
+//	DestroyPartyWhenEnter: Allows to decide whether to destory existing perties upon move to the event, this is to prevent parties of member of different guilds, 0/1
 //	FriendlyFire: Determines whether to enable or disable Friendly Fire during the event, 0/1
 //	MasterRegTime: Time to register guild by Guild Master, minutes
 //	MemberRegTime: Time to register by Guild Members after guild is registered by Guild Master, minutes
@@ -18,7 +19,7 @@
 //	PartyWait:
 //	Duration: Event duration, minutes
 //	ChannelClose: Time of automated move from event map after event finish, minutes
-//	TowerBuffRewardExp: Experiance bonus added as a result of the tower's buff
+//	TowerBuffRewardExp: Experience bonus added as a result of the tower's buff
 //
 // ### ArcaBattleEvent::DamageReduction
 //	OppositeTeam: Damage reduction on Opposite Team players during the event, expressed in percent, 0-100
@@ -68,7 +69,7 @@
 //	Group: Number of a group of monsters bunch, starting from 0
 //	MapNumber: Map Number the monsters group is assigned to
 //	Count: A number of time to spawn the monster group - for better understanding it is MonsterGroupMember * Count
-//	RegenTime: Respawn time for the group of monsters, minutes
+//	RegenTime: Re-spawn time for the group of monsters, minutes
 //
 // ### ArcaBattleEvent::MonsterGroupSpot::Spot ###
 //	MonsterGroup: Monsters group number to spawn - refer to MonsterGroupInformation section
@@ -97,7 +98,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
 
-<ArcaBattleEvent Enable="1" FriendlyFire="0" MinGuildMember="10" MasterRegTime="10" MemberRegTime="10" ProgressWait="3" PartyWait="5" Duration="30" ChannelClose="10" TowerBuffRewardExp="20">
+<ArcaBattleEvent Enable="1" FriendlyFire="0" MinGuildMember="10" DestroyPartyWhenEnter="1" MasterRegTime="10" MemberRegTime="10" ProgressWait="3" PartyWait="5" Duration="30" ChannelClose="10" TowerBuffRewardExp="20">
 	<DamageReduction OppositeTeam="100" SelfTeam="100" />
 	<ActiveDay Sun="0" Mon="0" Tue="0" Wed="1" Thu="0" Fri="0" Sat="0" />
 

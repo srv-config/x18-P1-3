@@ -48,7 +48,8 @@
 //	Level: Regular level of character to set, applies if set greater than 0
 //	MasterLevel: Master level of character to set, applies if set greater than 0
 //	Resets: Number of resets to set to the character, applies if set greater than 0
-//	MarlonQuest: Defines whether to set Marlon Quest as completed, may be required for selected characters, such as Dark Knight, 0/1
+//	MarlonFirstQuest: Defines whether to set first Marlon Quest as completed, may be required for selected characters, such as Dark Knight, 0/1
+//	MarlonSecondQuest: Defines whether to set second Marlon Quest as completed, may be required for selected characters, such as Dark Knight, 0/1
 //	Zen: Number of Zen to set to the character, max: 2147483647
 //	Ruud: Number of Ruud to set to the character, max: 2147483647
 //	InventoryExpansion: Apply expanded inventory
