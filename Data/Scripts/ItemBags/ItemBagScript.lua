@@ -11,6 +11,11 @@
 
 -- Any Custom chances to the script are out of support scope
 
+-- Define Bag Use Types
+	BAG_REWARD_GROUND = 0
+	BAG_REWARD_INVENTORY = 1
+	BAG_REWARD_GREMORY_CASE = 2
+	
 -- Define Bag Types
 	BAG_DROP = 0 -- Mostly Boxes and other items which dropped on ground throws item
 	BAG_INVENTORY = 1 -- Mostly Boxes and other items which require right click to use in inventory
@@ -246,7 +251,7 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,423),0, 'Item_(14,423,0)_Baseball_Lower_Case') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,424),0, 'Item_(14,424,0)_Baseball_Intermediate_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,425),0, 'Item_(14,425,0)_Baseball_Senior_Box') -- DropFunction /4/
-	-- AddItemBag(BAG_INVENTORY, MakeItemID(14,441),0, 'Item_(14,441,0)_Three_Vacancy_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(14,441),0, 'Item_(14,441,0)_Lapidary_Stone_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,442),0, 'Item_(14,442,0)_Shiny_Earring_Box_(Left)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(14,443),0, 'Item_(14,443,0)_Shiny_Earring_Box_(Right)') -- DropFunction /4/
 	--AddItemBag(BAG_INVENTORY, MakeItemID(14,445),0, 'Item_(14,445,0)_Box_of_Blessing') -- DropFunction /4/
@@ -277,6 +282,11 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,75),0, 'Item_(20,75,0)_Blood_Angel_Armor_Box_(4)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,76),0, 'Item_(20,76,0)_Blood_Angel_Weapon_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,78),0, 'Item_(20,78,0)_Harmony_Jewel_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,85),0, 'Item_(20,85,0)_[Bound]_+13_Third_Wing_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,86),0, 'Item_(20,86,0)_[Speed]_Earring_Box_(Right)') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,103),0, 'Item_(20,103,0)_Spider_Artifact_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,106),0, 'Item_(20,106,0)_Spider_Artifact_6_7_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,107),0, 'Item_(20,107,0)_Artifact_Enchantment_Stone_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,110),0, 'Item_(20,110,0)_Boss_Battle_Bonus_Box') -- DropFunction /4/
 
 -- ====================================================================
@@ -507,6 +517,7 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 	local Socket3 = ItemInfo.SocketInfo3
 	local Socket4 = ItemInfo.SocketInfo4
 	local Socket5 = ItemInfo.SocketInfo5
+	local ErrtelRank = ItemInfo.ErrtelRank								   
 
 		if (ItemInfo.Skill == 1) then -- Skill Always
 			IsSkill = 1
@@ -575,6 +586,7 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 			end
 		else
 			IsElemental = 0 -- no elemental attributes, applies for non elemental items only
+			ErrtelRank = 0	 
 		end
 
 	-- Protection against specified items which should not come with extra options
@@ -607,11 +619,13 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 		Socket3 = -1;
 		Socket4 = -1;
 		Socket5 = -1;
+		ErrtelRank = 0		
 	end
 
 	-- Protection against elemental setting value to unsupported items
 	if (IsElementalItem(ItemID) == false) then -- if item not elemental then set elemental to 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	elseif (IsElementalItem(ItemID) == true and IsElemental == 0) then -- if elemental item and no attribute set
 		IsElemental = GetRandomValue(6) -- make a draw, 0-5
 			if (IsElemental == 0) then -- if 0 then
@@ -642,10 +656,11 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 	end
 	
 	-- Protection against unsupported options for EvolutionStone item
-	if (ItemID == MakeItemID(16,211)) then
+	if (ItemID == MakeItemID(16, 211)) then
 		if (ItemInfo.MuunEvolutionItemType == 13) then
 			ItemInfo.MuunEvolutionItemType = 16
 		end
+		
 		MuunEvoItemID = MakeItemID(ItemInfo.MuunEvolutionItemType, ItemInfo.MuunEvolutionItemIndex)
 		IsSkill = 0
 		IsLuck = 0
@@ -668,11 +683,12 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 		IsSocket = 0
 		Duration = 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	else
 		MuunEvoItemID = 0;
 	end
 	
-	CreateItem(aIndex, MapNumber, X, Y, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, aIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5)
+	CreateItem(aIndex, MapNumber, X, Y, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, aIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5, ErrtelRank)
 	return 1
 end
 
@@ -711,6 +727,7 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 	local Socket3 = ItemInfo.SocketInfo3
 	local Socket4 = ItemInfo.SocketInfo4
 	local Socket5 = ItemInfo.SocketInfo5
+	local ErrtelRank = ItemInfo.ErrtelRank								   
 
 		if (ItemInfo.Skill == 1) then -- Skill Always
 			IsSkill = 1
@@ -779,6 +796,7 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 			end
 		else
 			IsElemental = 0 -- no elemental attributes, applies for non elemental items only
+			ErrtelRank = 0	 
 		end
 
 	-- Protection against specified items which should not come with extra options
@@ -811,11 +829,13 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 		IsElemental = 0
 		Duration = 0
 		MuunEvoItemID = 0
+		ErrtelRank = 0		
 	end
 
 	-- Protection against elemental setting value to unsupported items
 	if (IsElementalItem(ItemID) == false) then -- if item not elemental then set elemental to 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	elseif (IsElementalItem(ItemID) == true and IsElemental == 0) then -- if elemental item and no attribute set
 		IsElemental = GetRandomValue(6) -- make a draw, 0-5
 			if (IsElemental == 0) then -- if 0 then
@@ -846,7 +866,7 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 	end
 
 	-- Protection against unsupported options for EvolutionStone item
-	if (ItemID == MakeItemID(16,211)) then
+	if (ItemID == MakeItemID(16, 211)) then
 		if (ItemInfo.MuunEvolutionItemType == 13) then
 			ItemInfo.MuunEvolutionItemType = 16
 		end
@@ -873,17 +893,18 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 		IsSocket = 0
 		Duration = 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	else
 		MuunEvoItemID = 0;
 	end
 
-	CreateItem(MonsterIndex, MapNumber, MonsterX, MonsterY, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, PlayerIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5)
+	CreateItem(MonsterIndex, MapNumber, MonsterX, MonsterY, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, PlayerIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5, ErrtelRank)
 	return 1
 end
 
 
 -- ### /3/ Create Item (using Event Bag Structure) - Item Drop on Ground ### --
-function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerIndex, IsGremoryCase, GremoryCaseType, GremoryCaseGiveType, iGCReceiptDuration)
+function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerIndex, UseType, GremoryCaseType, GremoryCaseGiveType, iGCReceiptDuration)
 	local ItemID = MakeItemID(ItemInfo.ItemType, ItemInfo.ItemIndex)
 	local ItemCheck = IsItem(ItemID);
 
@@ -916,6 +937,7 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 	local Socket3 = ItemInfo.SocketInfo3
 	local Socket4 = ItemInfo.SocketInfo4
 	local Socket5 = ItemInfo.SocketInfo5
+	local ErrtelRank = ItemInfo.ErrtelRank								   
 
 		if (ItemInfo.Skill == 1) then -- Skill Always
 			IsSkill = 1
@@ -984,6 +1006,7 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 			end
 		else
 			IsElemental = 0 -- no elemental attributes, applies for non elemental items only
+			ErrtelRank = 0	 
 		end
 
 	-- Protection against specified items which should not come with extra options
@@ -1016,11 +1039,13 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 		IsElemental = 0
 		Duration = 0
 		MuunEvoItemID = 0
+		ErrtelRank = 0		
 	end
 
 	-- Protection against elemental setting value to unsupported items
 	if (IsElementalItem(ItemID) == false) then -- if item not elemental then set elemental to 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	elseif (IsElementalItem(ItemID) == true and IsElemental == 0) then -- if elemental item and no attribute set
 		IsElemental = GetRandomValue(6) -- make a draw, 0-5
 			if (IsElemental == 0) then -- if 0 then
@@ -1051,7 +1076,7 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 	end
 
 	-- Protection against unsupported options for EvolutionStone item
-	if (ItemID == MakeItemID(16,211)) then
+	if (ItemID == MakeItemID(16, 211)) then
 		if (ItemInfo.MuunEvolutionItemType == 13) then
 			ItemInfo.MuunEvolutionItemType = 16
 		end
@@ -1078,13 +1103,16 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 		IsSocket = 0
 		Duration = 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	else
 		MuunEvoItemID = 0;
 	end
 
-	if IsGremoryCase == 1 then
+	if UseType == BAG_REWARD_GREMORY_CASE then
 		InsertItem_GremoryCase(PlayerIndex, GremoryCaseType, GremoryCaseGiveType, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, IsAncient, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5, iGCReceiptDuration, Duration)
-	else	
+	elseif UseType == BAG_REWARD_INVENTORY then
+		CreateItem(MonsterIndex, 235, MonsterX, MonsterY, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, PlayerIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5)
+	else -- BAG_REWARD_GROUND 
 		CreateItem(MonsterIndex, MapNumber, MonsterX, MonsterY, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, PlayerIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5)
 	end
 	return 1
@@ -1125,6 +1153,7 @@ function EventBagMakeItem()
 	local Socket3 = ItemInfo.SocketInfo3
 	local Socket4 = ItemInfo.SocketInfo4
 	local Socket5 = ItemInfo.SocketInfo5
+	local ErrtelRank = ItemInfo.ErrtelRank								   
 	
 		if (ItemInfo.Skill == 1) then -- Skill Always
 			IsSkill = 1
@@ -1193,6 +1222,7 @@ function EventBagMakeItem()
 			end
 		else
 			IsElemental = 0 -- no elemental attributes, applies for non elemental items only
+			ErrtelRank = 0	 
 		end
 
 	-- Protection against specified items which should not come with extra options
@@ -1225,11 +1255,13 @@ function EventBagMakeItem()
 		IsElemental = 0
 		Duration = 0
 		MuunEvoItemID = 0
+		ErrtelRank = 0		
 	end
 
 	-- Protection against elemental setting value to unsupported items
 	if (IsElementalItem(ItemID) == false) then -- if item not elemental then set elemental to 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	elseif (IsElementalItem(ItemID) == true and IsElemental == 0) then -- if elemental item and no attribute set
 		IsElemental = GetRandomValue(6) -- make a draw, 0-5
 			if (IsElemental == 0) then -- if 0 then
@@ -1260,10 +1292,11 @@ function EventBagMakeItem()
 	end
 
 	-- Protection against unsupported options for EvolutionStone item
-	if (ItemID == MakeItemID(16,211)) then
+	if (ItemID == MakeItemID(16, 211)) then
 		if (ItemInfo.MuunEvolutionItemType == 13) then
 			ItemInfo.MuunEvolutionItemType = 16
 		end
+		
 		MuunEvoItemID = MakeItemID(ItemInfo.MuunEvolutionItemType, ItemInfo.MuunEvolutionItemIndex)
 		IsSkill = 0
 		IsLuck = 0
@@ -1286,11 +1319,12 @@ function EventBagMakeItem()
 		IsSocket = 0
 		Duration = 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	else
 		MuunEvoItemID = 0;
 	end
 	
-	return ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, IsAncient, IsElemental, IsSocket, MuunEvoItemID, Duration, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5
+	return ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, IsAncient, IsElemental, IsSocket, MuunEvoItemID, Duration, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5, ErrtelRank
 end
 
 -- ### /5/ Create Item (using Inventory Bag Structure) - BAG_INVENTORY ### --
@@ -1327,6 +1361,7 @@ function InventoryBagItemCreate(aIndex)
 	local Socket3 = ItemInfo.SocketInfo3
 	local Socket4 = ItemInfo.SocketInfo4
 	local Socket5 = ItemInfo.SocketInfo5
+	local ErrtelRank = ItemInfo.ErrtelRank								   
 	
 		if (ItemInfo.Skill == 1) then -- Skill Always
 			IsSkill = 1
@@ -1395,6 +1430,7 @@ function InventoryBagItemCreate(aIndex)
 			end
 		else
 			IsElemental = 0 -- no elemental attributes, applies for non elemental items only
+			ErrtelRank = 0	 
 		end		   
 
 	-- Protection against specified items which should not come with extra options
@@ -1428,11 +1464,13 @@ function InventoryBagItemCreate(aIndex)
 		IsElemental = 0
 		Duration = 0
 		MuunEvoItemID = 0
+		ErrtelRank = 0		
 	end
 
 	-- Protection against elemental setting value to unsupported items
 	if (IsElementalItem(ItemID) == false) then -- if item not elemental then set elemental to 0
 		IsElemental = 0
+		ErrtelRank = 0		
 	elseif (IsElementalItem(ItemID) == true and IsElemental == 0) then -- if elemental item and no attribute set
 		IsElemental = GetRandomValue(6) -- make a draw, 0-5
 			if (IsElemental == 0) then -- if 0 then
@@ -1463,7 +1501,7 @@ function InventoryBagItemCreate(aIndex)
 	end
 
 	-- Protection against unsupported options for EvolutionStone item
-	if (ItemID == MakeItemID(16,211)) then
+	if (ItemID == MakeItemID(16, 211)) then
 		if (ItemInfo.MuunEvolutionItemType == 13) then
 			ItemInfo.MuunEvolutionItemType = 16
 		end
@@ -1490,10 +1528,11 @@ function InventoryBagItemCreate(aIndex)
 		IsSocket = 0
 		Duration = 0	  
 		IsElemental = 0
+		ErrtelRank = 0		
 	else
 		MuunEvoItemID = 0;
 	end
 	
-	CreateItem(aIndex, 214, 0, 0, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, aIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5)
+	CreateItem(aIndex, 214, 0, 0, ItemID, ItemLevel, ItemDur, IsSkill, IsLuck, IsOption, aIndex, IsAncient, Duration, IsSocket, IsElemental, MuunEvoItemID, Exc1, Exc2, Exc3, Exc4, Exc5, Exc6, Exc7, Exc8, Exc9, Socket1, Socket2, Socket3, Socket4, Socket5, ErrtelRank)
 	return 1		 
 end

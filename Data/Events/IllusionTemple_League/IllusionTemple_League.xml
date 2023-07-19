@@ -10,7 +10,6 @@
 //
 // ### IllusionTempleLeague ###
 //	Enable: Deactivates or activated the event, 0/1
-//	MinUserInParty: Minimum players in every party participating to the event, party members MUST belong to same guild
 //	MinLevel: Minimum total level to enter the event
 //	MaxGuildEnter: Number of times specific guild can enter the event during eliminations stage
 //	MaxPlayerEnter: Number of times specific player can enter the event during eliminations stage
@@ -74,7 +73,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<IllusionTempleLeague Enable="0" MinUserInParty="5" MinLevel="400" MaxGuildEnter="6" MaxPlayerEnter="5" DamageReduction="100">
+<IllusionTempleLeague Enable="0" MinLevel="400" MaxGuildEnter="6" MaxPlayerEnter="5" DamageReduction="100">
 	<Time StartIn="5" WaitingArea="1" TownSpawn="1" />
 	<RankTeam One="1" Two="4" Three="3" Four="2" />
 	<ElliminationDay One="3" Two="4" Three="5" Four="6" Five="7" Six="8" Seven="9" />

@@ -2,7 +2,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -15,9 +15,9 @@
 //	SetItemRate: Drop rate of random set item selected from entire pool of available ancients, rate is being drawn individually for every drop attempt, n/10000, can be 0
 //	SetItemCount: Number of set items to drop if SetItemRate is set to value greater than 0
 //	MasterySetItemInclude: If set to 1 the set item drop based on SetItemRate will include mastery set items, otherwise set to 0
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ The SetItemRate is not available for all EVENT_BAG types. Define Set Items via Drop sections manually instead
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 //	MoneyDrop: Money (Zen) amount to drop from bag (must be greater than 0 if ItemRate is lower than 10000)
 //	IsPentagramForBeginnersDrop: Defines whether to drop Pentagram for Beginners with pre-defined Errtels for Beginners, 0/1
@@ -34,7 +34,20 @@
 //			
 //	PartyShareType: Determined mode of dividing share among party members, includes Coin, Ruud and Zen
 //		~ 0: Share proportionally to number of party members, e.g. coin reward is set to 100 and party members is 5, so each party member within 9 tiles from party master will receive 20 coins.
-//		~ 1: Each party member receives full coint amount configured in bag
+//		~ 1: Each party member receives full coin amount configured in bag
+//
+//	BagUseType: Attribute is used only for item bags defined as BAG_EVENT type in ItemBagsScript.lua, does not apply to mix related bags
+//		~ 0: Reward is dropped on ground
+//		~ 1: Reward is issued to inventory
+//		~ 2: Reward is issued to Gremory Case
+//
+//	GCStorageType: Gremory Case storage type, applies only if BagUseType is set to 2
+//		~ 1: Account
+//		~ 2: Character
+//		~ 3: Mobile
+//		~ 4: Personal Store
+//	
+//	GCRewardType: Type of reward issued to Gremory Case, check GremoryCase.xml::GremoryCase::RewardExpiryTime::General::Use::Type, applies only if BagUseType is set to 2
 //
 //	BagUseRate: Defines probability to use Bag, n/10000.
 //				If value is lower than 10000 (100%) then a draw is performed between item bag and another drop system in hierarchy
@@ -50,6 +63,7 @@
 //	CoinType:
 //		~ 0: WCoin
 //		~ 1: Goblin Point
+//
 //	CoinValue: Points count to award with
 //	PlayerMinLevel: Minimum level of player to apply Coin (must be lower or equal to PlayerMaxLevel)
 //	PlayerMaxLevel: Maximum level of player to apply Coin (must be greater or equal to PlayerMinLevel)
@@ -141,10 +155,12 @@
 //			-2: Random options set (based on rates from ArtifactSystem.xml)
 //			X1;Y1;X2;Y2;X3;Y3: X is OptionType value from ArtifactOption.xml, -1 if not applies, Y is value index, 1~10, referring to ValueX of selected option, -1 if not applies
 //
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Advanced config notes: The values -1, -2 and -3 are stored under Exc1 variable in ItemBagScript.lua, the options count (X) for -3 value is stored under Exc2 variable
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
 //	SetItem: 0 ~ no ancient, 1 ~ ancient (random Tier of specified item) - must be added as ancient, otherwise option will be ignored
+//	ErrtelRank: Defines rank to drop Errtel item with, 1-5, not applies to Errtels of Beginner, by default set 1
 //	SocketCount:
 //		~ 0: no Socket slots
 //		~ 1: up to one slot
@@ -160,15 +176,15 @@
 //	MuunEvolutionItemCat: Attribute used and required for item 16,211 (Evolution Stone) only, defines Muun Item Category
 //	MuunEvolutionItemIndex: Attribute used and required for item 16,211 (Evolution Stone) only, defines Muun Item Index
 //	KindA: Attribute automatically assigned on a basis on ItemList.xml configuration, no necessary to be defined in bag
-//	Duration: Allows to drop expiable item, seconds (not every item is suitable for period items system, please test before putting on live server)
+//	Duration: Allows to drop expirable item, seconds (not every item is suitable for period items system, please test before putting on live server)
 //
 //~~ Item Bag structure explanation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Bag structure supports multiple DropSections. Each DropSections supports multiple DropAllow sub-sections. Each DropAllow section may have multiple Drop sub-sections.
 //
-//~~ Understanding DropSection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Understanding DropSection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Every item bag (except INVENTORY bag type) support ability to define multiple DropSection. It is used to drop two or more items from different sections of different rules for single player, check Item_(14,354,0)_PlayTime_Box.xml for examples.
 //
-//~~ Understanding DropAllow/Drop sections selection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Understanding DropAllow/Drop sections selection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Qualified (player meets requirements of) DropAllow section is selected on basis of its weight. Weight (priority) of DropAllow section is equal to sum of all Rates of Drop sections and divided by number of Drop sections contained inside DropAllow section.
 // If there are multiple DropAllow sections of same weight then DropAllow section is selected randomly from pool of all qualified DropAllow sections of same weight.
 //
