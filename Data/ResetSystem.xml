@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2023 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -14,6 +14,8 @@
 //~~ If enabled the old reset system from Common.ini will be automatically disabled.
 //~~ To allow smooth switch to new system we will keep old reset system for next few updates
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	MaxDailyResets: maximum number of resets player may achieve daily, 0 for no limit
 //
 // ### ResetSystem::Requirements ###
 //	MinLevelMode: Minimum level check mode:
@@ -108,7 +110,7 @@
 //
 -->
 
-<ResetSystem Enable="0">
+<ResetSystem Enable="0" MaxDailyResets="10">
 <Requirements MinLevelMode="0" MinLevel="400" MaxInGameResets="100" MaxWebResets="100" MinVipType="-1" />
 <Settings RemoveEquipment="1" RemoveFromParty="1" EnableMuHelper="0" ClearBuffs="1" ResetStats="0" SaveOldStatPoint="0" ResetMasterLevel="0" MoveToCharSelectWindow="0" StayOnPosition="0" MaxResetPoints="0" LevelAfterReset="1" MasterLevelAfterReset="0" />
 
@@ -125,7 +127,7 @@
 		<Range MinReset="91" MaxReset="MAX" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="4" RewardSetID="4" />
 	</DynamicResetRangeList>
 	
-	<RegResetsRewardList> <!-- Item issued to Gremory Case -->
+	<RegResetsRewardList> <!-- Items issued to Gremory Case -->
 		<Reward Id="0" WCoin="100" GP="300" Zen="10000" Ruud="70" LevelUpPoints="100" MultiplyPointByReset="1" ContributePoints="5" ItemBagID="300" />
 		<Reward Id="1" WCoin="150" GP="400" Zen="15000" Ruud="130" LevelUpPoints="150" MultiplyPointByReset="1" ContributePoints="10" ItemBagID="300" />
 		<Reward Id="2" WCoin="200" GP="500" Zen="20000" Ruud="180" LevelUpPoints="200" MultiplyPointByReset="1" ContributePoints="15" ItemBagID="300" />
@@ -133,7 +135,7 @@
 		<Reward Id="4" WCoin="300" GP="700" Zen="30000" Ruud="280" LevelUpPoints="300" MultiplyPointByReset="1" ContributePoints="25" ItemBagID="300" />
 	</RegResetsRewardList>
 	
-	<MilestonesRewardList> <!-- Item issued to Gremory Case -->
+	<MilestonesRewardList> <!-- Items issued to Gremory Case -->
 		<Reward Id="0" WCoin="200" GP="600" Zen="20000" Ruud="120" LevelUpPoints="200" ContributePoints="100" ItemBagID="301" />
 		<Reward Id="1" WCoin="300" GP="800" Zen="30000" Ruud="190" LevelUpPoints="270" ContributePoints="120" ItemBagID="301" />
 		<Reward Id="2" WCoin="400" GP="1000" Zen="40000" Ruud="260" LevelUpPoints="340" ContributePoints="150" ItemBagID="301" />

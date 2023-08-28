@@ -1,64 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-// ============================================================
+/ ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == Modify if you know what you do only!
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//~~ This system is offered as optional plugin available at https://www.igcn.mu/plugin-manager/
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Plugin store page: https://www.igcn.mu/plugin-manager/plugin/10-jewel-upgrade-system/
+//~~
+//~~ The jewel upgrade system can convert defined items/options to completely new item, options or both.
+//~~ Example, you can upgrade Leather Armor to Dragon Armor with the jewel or give new properties to existing item.
+//~~ Supported jewels 19,210~240
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### JewelUpgradeSystem ###
+//	Enabled: Deactivates or activates the system, 0/1
+//	Extended: Allows to use maximum capabilities of the plugin, should stay enabled, 0/1
+//	
+// ### JewelUpgradeSystem::IgnoreItemList::Item ###
+//	Cat: Category of item, see ItemList.xml
+//	Index: Index of item, see ItemList.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ List of items that cannot be converted
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### JewelUpgradeSystem::Jewel ###
+//	Cat: Category of item, always 19
+//	Index: Index of item, 210-240
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Every jewel type can be defined once only, however item applications are infinite
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### JewelUpgradeSystem::Jewel::Item
+//	Cat: Category of item, see ItemList.xml. -1 for any wearable item, supported categories 0~11
+//	Index: Index of item, see ItemList.xml
+//	ItemMinLevel: Minimum level for item required to be eligible for jewel upgrade
+//	ItemMaxLevel: Maximum level for item required to be eligible for jewel upgrade
+//	MinExcOpt: Minimum number of excellent options required
+//	MaxExcOpt: Maximum number of excellent options required
+//	SetItem: Whether required item must be ancient, 0/1
+//	Success: Success rate of upgrade, n/100
+//	RewardCat: Category of upgrade result item, see ItemList.xml, if item type stays the same, set same as Cat and Index
+//	RewardIndex: Index of upgrade result item, see ItemList.xml, if item type stays the same, set same as Cat and Index
+//	RewardLevel: Level of upgrade result item, 0-15
+//	FailPenalty: In case of failure, different kind of penalties may be applied:
+//		~ -1: No penalty
+//		~ 0: Destroy item
+//		~ 1-15: Reduce item level by random number up to defined value
+//
+//	RewardSetItem: Set upgrade result item as ancient, 0/1
+//	RewardMinExcOpt: Minimum number of new excellent options added to upgrade result item, 0-9
+//	RewardSocket: Number of socket slots added to upgrade result item, 0-5
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
-<JewelUpgradeSystem Enabled="0" Extended="1">
+
+<JewelUpgradeSystem Enabled="1" Extended="1">
 	<IgnoreItemList>
 		<Item Cat="0" Index="41" />
 		<Item Cat="4" Index="7" />
 		<Item Cat="4" Index="15" />
 	</IgnoreItemList>
-	
 	<Jewel Cat="19" Index="210">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" />
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="211">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="212">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="213">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="214">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="215">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="216">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="217">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="218">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 	<Jewel Cat="19" Index="219">
-		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" Exc="0" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
-		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" Exc="0" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="0" Index="13" ItemMinLevel="0" ItemMaxLevel="8" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="10" RewardCat="13" RewardIndex="8" RewardLevel="9" FailPenalty="0" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
+		<Item Cat="-1" Index="-1" ItemMinLevel="10" ItemMaxLevel="15" MinExcOpt="0" MaxExcOpt="9" SetItem="0" Success="100" RewardCat="13" RewardIndex="9" RewardLevel="9" FailPenalty="-1" RewardSetItem="1" RewardExc="2" RewardSocket="0" /> 
 	</Jewel>
 </JewelUpgradeSystem>
