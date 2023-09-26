@@ -48,7 +48,9 @@
 	EVENTBAG_LORDMIX = 25
 	EVENTBAG_KUNDUN = 26
 	EVENTBAG_ACHERONGUARDIAN = 27
--- 28 - 30
+-- 28
+	EVENTBAG_CS_WINNER_GUILDMASTER = 29
+	EVENTBAG_ARCA_WINNER_GUILDMASTER = 30
 	EVENTBAG_MAPLELEAF = 31
 -- 32 - 33
 	EVENTBAG_ITR_1 = 34 -- Illusion Temple Renewal 1
@@ -389,7 +391,9 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 25,0, 'Mix_Senior_Reward') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 26,0, 'Monster_(275)_Kundun') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 27,0, 'Event_AcheronGuardian_Reward') -- DropFunction /3/
--- 28 - 30
+-- 28
+	AddItemBag(BAG_EVENT, 29,0, 'Event_CastleSiege_Winner_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 30,0, 'Event_ArcaBattle_Winner_GuildMaster_Reward') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 31,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
 -- 32 - 33
 	AddItemBag(BAG_EVENT, 34,0, 'Event_IllusionTemple_Renewal_1') -- DropFunction /3/
@@ -478,6 +482,9 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 807,0, 'Event_PlayTime_Round_8')
 	AddItemBag(BAG_EVENT, 808,0, 'Event_PlayTime_Round_9')
 	AddItemBag(BAG_EVENT, 809,0, 'Event_PlayTime_Round_10')
+	
+	-- Bags for purpose of Imperial Guardian additional rewards
+	AddItemBag(BAG_EVENT, 850,0, 'Event_ImperialGuardian_Level(1)_Additional_Reward')
 	
 -- Bags for purpose of Blessing Box event
 	AddItemBag(BAG_EVENT, 900,0, 'Event_BlessingBox_(899)_Kill')

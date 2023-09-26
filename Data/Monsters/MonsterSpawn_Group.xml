@@ -15,6 +15,7 @@
 //		~ 1: Most Damage
 //
 // ### MonsterGroupRegenSystem::GroupSettings::Group ###
+//	Enable: Deactivates or activates specific group spawn, 0/1
 //	Index: Group number definition, unique in the section
 //	Duration: Time after which monsters will be deleted if not killed, minutes, if -1 is specified then monsters remain until killed
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,7 +82,7 @@
 
 <MonsterGroupRegenSystem SpawnNotice="1" MonsterKillRewardType="1">
 	<GroupSettings>
-		<Group Index="0" Duration="60" MapNumber="56" BossMonsterIndex="561" BossMonsterName="Medusa" AllowMove="0" SpawnNotice="Medusa and her assistants has invaded Swamp of Clamness!!!" DespawnNotice="Medusa and her assistants are gone" PreNotice="Medusa will spawn in %d Minutes" />
+		<Group Enable="1" Index="0" Duration="60" MapNumber="56" BossMonsterIndex="561" BossMonsterName="Medusa" AllowMove="0" SpawnNotice="Medusa and her assistants has invaded Swamp of Clamness!!!" DespawnNotice="Medusa and her assistants are gone" PreNotice="Medusa will spawn in %d Minutes" />
 	</GroupSettings>
  
 	<SpotSettings>

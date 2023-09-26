@@ -28,7 +28,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<MuQuest>
+<MuQuest AllowGiveUp="1">
 	<QuestInfo Index="1" Name="Reach Lv. 5 and meet Shadow Phantom Soldier" Server="0" Day="0">
 		<Job TemplateType="0" Chapter="1" Category="2" Importance="1" StartType="1" StartSubType="5" MinLevel="5" MaxLevel="1500" RepeatCycle="0" Priority="-1" StartItemCat="-1" StartItemIndex="-1" GensCheck="-1" Zen="0" DarkWizard="0" DarkKnight="0" FairyElf="0" MagicGladiator="0" DarkLord="0" Summoner="0" RageFighter="0" GrowLancer="0" RuneWizard="0" Slayer="0" GunCrusher="0" LightWizard="0" LemuriaMage="0" IllusionKnight="0" />
 		<Reward TemplateType="1" QuestKind="5" QuestType="-1" QuestSubType="-1" TargetCount="-1" MonsterClass="-1" DropRate="-1" GateNumber="17" MapNumber="0" CoordinateX="167" CoordinateY="129" RewardExp="50" RewardZen="50" RewardGensPoint="0" RewardItemCat1="-1" RewardItemIndex1="-1" RewardItemLevel1="0" RewardItemCount1="-1" RewardItemCat2="-1" RewardItemIndex2="-1" RewardItemLevel2="0" RewardItemCount2="-1" RewardItemCat3="-1" RewardItemIndex3="-1" RewardItemLevel3="0" RewardItemCount3="-1" RewardCat="-1" RewardIndex="-1" RewardCount="-1" />

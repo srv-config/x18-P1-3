@@ -857,6 +857,9 @@
 		<Msg ID="831" Text="[System] The server is running on test version that will be disabled at the end of test cycle." /> <!-- Thrown to Admin/GM if server is running on test version that will expiry -->
 		<Msg ID="832" Text="[System] The server is running on vulnerable version, update as quick as possible." /> <!-- Thrown to Admin/GM if server is running on version that has been identified as vulnerable -->
 		<Msg ID="841" Text="You can mix up to 25 jewels at a time." />
+		<Msg ID="842" Text="You reached maximum resets of %d you could achieve a day." />
+		<Msg ID="844" Text="The quest or chapter cannot be given up." />
+		<Msg ID="845" Text="The item does not meet any criteria to be used with the jewel." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />

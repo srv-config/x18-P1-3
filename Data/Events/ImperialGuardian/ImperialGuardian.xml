@@ -24,6 +24,8 @@
 //~~ If MAX is used as value for ReqLevel attribute then the attribute is being set to sum of MaxNormalLevel and MaxMasterLevel from Common.ini
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
+//	AdditionalRewardBagID: If enabled, issues additional reward from Event_ImperialGuardian_Additional_Reward.xml, 0/1
+
 // ### ImperialGuardian::ElementInfo::Week ###
 //	Number: Number of a week during the year, 1-52
 //	Element: Element type the event monsters are spawned with
@@ -41,7 +43,7 @@
 	<Time StandBy="10" RoundDuration="600" />
 
 	<EventEntry>
-		<Event Level="1" ReqLevel="1000" />
+		<Event Level="1" ReqLevel="1000" AdditionalRewardBagID="850" />
 	</EventEntry>
 	
 	<ElementInfo>

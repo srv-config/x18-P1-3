@@ -495,6 +495,20 @@ function ElfHolyBolt_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, 
 	return OutDamage
 end
 
+-- SkillID: 344, Blood Storm - (Duel Master)
+function BloodStormCalc_MasterLevel1_Knight(InDamage, Energy)
+	local OutDamage = InDamage * (Energy / 10 + 200) / 100
+	
+	return OutDamage
+end
+
+-- SkillID: 346, Blood Storm Strengthener - (Duel Master)
+function BloodStormCalc_MasterLevel1_Gladiator(InDamage, Energy)
+	local OutDamage = InDamage * (Energy / 10 + 200) / 100
+	
+	return OutDamage
+end
+
 -- SkillID: 479, Cyclone Strengthener - (Duel Master)
 function CycloneCalc_Master_Gladiator(InDamage, Energy)
 	local OutDamage = InDamage * 2

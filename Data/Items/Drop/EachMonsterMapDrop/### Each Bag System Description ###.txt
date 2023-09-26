@@ -2,7 +2,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -18,8 +18,10 @@
 //		~ 5: Darkness element
 //		~ -1: Any or no element
 //
-//	PlayerMinLevel: Minimum level of player, -1 for any level
-//	PlayerMaxLevel: Maximum level of player, -1 for any level
+//	PlayerMinReset: Minimum reset of player, -1 for any
+//	PlayerMaxReset: Maximum reset of player, -1 for any
+//	PlayerMinLevel: Minimum level of player, -1 for any
+//	PlayerMaxLevel: Maximum level of player, -1 for any
 //	Cat: Category of item, see ItemList.xml
 //	Index: Index of item, see ItemList.xml
 //	MinLevel: Minimum item level to drop, 0-15
